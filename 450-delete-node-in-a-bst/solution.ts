@@ -13,28 +13,19 @@
  */
 
 function deleteNode(root: TreeNode | null, key: number): TreeNode | null {
-    let tempRoot = new TreeNode(0, root, null);
-    
-    let parent = tempRoot;
-    let direction = 'left';
-    let deleted = root;
-    while(!!deleted && deleted.val !== key) {
-        parent = deleted;
-        if(key < deleted.val) { deleted = deleted.left; direction = 'left'; }
-        else { deleted = deleted.right; direction = 'right'; }
-    }
-    if(!deleted) return root;
-    
-    if(!deleted.left && !deleted.right) parent[direction] = null;
-    else if(!deleted.left || !deleted.right) {
-        parent[direction] = deleted.left || deleted.right;
-    }else {
-        let minimum = deleted.right;
-        while(minimum.left) minimum = minimum.left;
-        const val = minimum.val
-        deleteNode(root, val);
-        deleted.val = val;
-    }
-       
-    return tempRoot.left;
-};
+  if (!root) return null;
+  if (key < root.val) {
+    root.left = deleteNode(root.left, key);
+  } else if (key > root.val) {
+    root.right = deleteNode(root.right, key);
+  } else {
+    if (!root.left && !root.right) return null;
+    if (!root.left) return root.right;
+    if (!root.right) return root.left;
+    let temp = root.right;
+    while (temp.left) temp = temp.left;
+    root.val = temp.val;
+    root.right = deleteNode(root.right, temp.val);
+  }
+  return root;
+}

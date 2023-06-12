@@ -1,20 +1,13 @@
 function maxArea(height: number[]): number {
-  const n = height.length;
-  const indexes = [...Array(n).keys()].sort((a, b) => {
-    return height[b] - height[a];
-  });
-
+  let p1 = 0;
+  let p2 = height.length - 1;
   let answer = -1;
-  let minIdx = indexes[0];
-  let maxIdx = indexes[0];
-
-  for (let i = 1; i < n; i++) {
-    const idx = indexes[i];
-    const maxWidth = Math.max(Math.abs(idx - maxIdx), Math.abs(idx - minIdx));
-    answer = Math.max(answer, maxWidth * height[idx]);
-
-    minIdx = Math.min(idx, minIdx);
-    maxIdx = Math.max(idx, maxIdx);
+  while (p1 < p2) {
+    answer = Math.max(answer, (p2 - p1) * Math.min(height[p1], height[p2]));
+    if (height[p1] < height[p2]) p1++;
+    else if (height[p1] > height[p2]) p2--;
+    else p1++, p2--;
   }
+
   return answer;
 }

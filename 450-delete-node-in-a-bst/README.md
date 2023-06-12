@@ -1,4 +1,4 @@
-> Submitted: 2023-06-03T10:31:10.000Z
+> Submitted: 2023-06-10T07:01:34.000Z
 
 <p>Given a root node reference of a BST and a key, delete the node with the given key in the BST. Return <em>the <strong>root node reference</strong> (possibly updated) of the BST</em>.</p>
 
