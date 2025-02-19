@@ -1,4 +1,4 @@
-> Submitted: 2023-06-04T15:25:35.000Z
+> Submitted: 2023-06-13T10:21:47.000Z
 
 <p>Given a string <code>s</code>, find the length of the <strong>longest</strong> <span data-keyword="substring-nonempty"><strong>substring</strong></span> without duplicate characters.</p>
 

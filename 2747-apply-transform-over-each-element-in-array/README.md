@@ -1,4 +1,4 @@
-> Submitted: 2023-06-11T10:39:08.000Z
+> Submitted: 2023-06-13T13:14:17.000Z
 
 <p>Given an integer array&nbsp;<code>arr</code>&nbsp;and a mapping function&nbsp;<code>fn</code>, return&nbsp;a new array with a transformation applied to each element.</p>
 

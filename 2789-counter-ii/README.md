@@ -1,4 +1,4 @@
-> Submitted: 2023-06-11T10:30:56.000Z
+> Submitted: 2023-06-13T13:14:06.000Z
 
 <p>Write a function&nbsp;<code>createCounter</code>. It should accept an initial integer&nbsp;<code>init</code>. It should return an object with three functions.</p>
 

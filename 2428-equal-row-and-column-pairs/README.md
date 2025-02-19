@@ -1,4 +1,4 @@
-> Submitted: 2023-06-09T11:27:20.000Z
+> Submitted: 2023-06-13T03:42:28.000Z
 
 <p>Given a <strong>0-indexed</strong> <code>n x n</code> integer matrix <code>grid</code>, <em>return the number of pairs </em><code>(r<sub>i</sub>, c<sub>j</sub>)</code><em> such that row </em><code>r<sub>i</sub></code><em> and column </em><code>c<sub>j</sub></code><em> are equal</em>.</p>
 

@@ -1,4 +1,4 @@
-> Submitted: 2023-06-06T14:21:22.000Z
+> Submitted: 2023-06-13T13:17:41.000Z
 
 <p>Given an&nbsp;asynchronous function&nbsp;<code>fn</code>&nbsp;and a time <code>t</code>&nbsp;in milliseconds, return&nbsp;a new&nbsp;<strong>time limited</strong>&nbsp;version of the input function. <code>fn</code> takes arguments provided to the&nbsp;<strong>time limited&nbsp;</strong>function.</p>
 

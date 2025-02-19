@@ -1,4 +1,4 @@
-> Submitted: 2023-06-05T13:47:32.000Z
+> Submitted: 2023-06-13T03:18:01.000Z
 
 <p>The string <code>&quot;PAYPALISHIRING&quot;</code> is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)</p>
 

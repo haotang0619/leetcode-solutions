@@ -1,4 +1,4 @@
-> Submitted: 2023-06-11T10:20:45.000Z
+> Submitted: 2023-06-13T13:16:13.000Z
 
 Write a function&nbsp;<code>argumentsLength</code> that returns the count of arguments passed to it.
 <p>&nbsp;</p>

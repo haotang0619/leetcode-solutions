@@ -1,4 +1,4 @@
-> Submitted: 2023-06-09T17:23:29.000Z
+> Submitted: 2023-06-15T01:07:32.000Z
 
 <p>Given the <code>root</code> of a binary tree, the level of its root is <code>1</code>, the level of its children is <code>2</code>, and so on.</p>
 

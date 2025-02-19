@@ -1,4 +1,4 @@
-> Submitted: 2023-05-30T05:17:14.000Z
+> Submitted: 2025-02-19T01:42:56.000Z
 
 <p>Given a positive integer <code>n</code>, return <em>the <strong>punishment number</strong></em> of <code>n</code>.</p>
 

@@ -1,4 +1,4 @@
-> Submitted: 2023-06-10T16:22:58.000Z
+> Submitted: 2023-06-13T13:16:49.000Z
 
 Given two promises <code>promise1</code> and <code>promise2</code>, return a new promise. <code>promise1</code> and <code>promise2</code>&nbsp;will both resolve with a number. The returned promise should resolve with the sum of the two numbers.
 <p>&nbsp;</p>

@@ -1,4 +1,3 @@
-
 type StackElement = { h: number; pos: number };
 
 function trap(height: number[]): number {
