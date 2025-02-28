@@ -1,4 +1,4 @@
-> Submitted: 2023-05-28T09:30:05.000Z
+> Submitted: 2025-02-26T10:15:42.000Z
 
 <p>Given an <code>m x n</code> <code>matrix</code>, return <em>all elements of the</em> <code>matrix</code> <em>in spiral order</em>.</p>
 

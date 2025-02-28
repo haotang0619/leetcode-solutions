@@ -1,4 +1,4 @@
-> Submitted: 2023-05-28T09:38:42.000Z
+> Submitted: 2025-02-26T11:35:14.000Z
 
 <p>Given an array&nbsp;of <code>intervals</code>&nbsp;where <code>intervals[i] = [start<sub>i</sub>, end<sub>i</sub>]</code>, merge all overlapping intervals, and return <em>an array of the non-overlapping intervals that cover all the intervals in the input</em>.</p>
 

@@ -1,4 +1,4 @@
-> Submitted: 2023-06-03T09:59:07.000Z
+> Submitted: 2025-02-26T10:16:19.000Z
 
 <p>You are given an <code>n x n</code> 2D <code>matrix</code> representing an image, rotate the image by <strong>90</strong> degrees (clockwise).</p>
 

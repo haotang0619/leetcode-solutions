@@ -1,4 +1,4 @@
-> Submitted: 2023-06-12T02:35:48.000Z
+> Submitted: 2025-02-26T11:29:39.000Z
 
 <p>You are given a <strong>sorted unique</strong> integer array <code>nums</code>.</p>
 

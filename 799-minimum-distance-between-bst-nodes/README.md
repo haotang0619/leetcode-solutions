@@ -1,4 +1,4 @@
-> Submitted: 2023-06-14T10:13:13.000Z
+> Submitted: 2025-02-27T15:19:08.000Z
 
 <p>Given the <code>root</code> of a Binary Search Tree (BST), return <em>the minimum difference between the values of any two different nodes in the tree</em>.</p>
 

@@ -1,4 +1,4 @@
-> Submitted: 2023-06-09T16:21:55.000Z
+> Submitted: 2025-02-27T11:46:54.000Z
 
 <p>Given the <code>root</code> of a binary tree, return <em>its maximum depth</em>.</p>
 

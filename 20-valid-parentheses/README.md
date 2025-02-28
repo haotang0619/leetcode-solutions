@@ -1,4 +1,4 @@
-> Submitted: 2023-05-26T15:42:26.000Z
+> Submitted: 2025-02-26T12:55:49.000Z
 
 <p>Given a string <code>s</code> containing just the characters <code>&#39;(&#39;</code>, <code>&#39;)&#39;</code>, <code>&#39;{&#39;</code>, <code>&#39;}&#39;</code>, <code>&#39;[&#39;</code> and <code>&#39;]&#39;</code>, determine if the input string is valid.</p>
 

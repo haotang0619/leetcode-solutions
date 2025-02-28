@@ -1,4 +1,4 @@
-> Submitted: 2023-06-03T02:58:52.000Z
+> Submitted: 2025-02-28T16:12:17.000Z
 
 Given the <code>root</code> of a binary tree, return <em>the average value of the nodes on each level in the form of an array</em>. Answers within <code>10<sup>-5</sup></code> of the actual answer will be accepted.
 <p>&nbsp;</p>

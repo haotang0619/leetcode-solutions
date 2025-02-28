@@ -1,4 +1,4 @@
-> Submitted: 2023-06-02T15:29:47.000Z
+> Submitted: 2025-02-26T10:48:49.000Z
 
 <p>Given two strings <code>s</code> and <code>t</code>, <em>determine if they are isomorphic</em>.</p>
 
