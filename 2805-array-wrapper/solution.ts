@@ -1,16 +1,16 @@
 class ArrayWrapper {
-    private nums: number[];
-	
+    private nums;
+    
     constructor(nums: number[]) {
-        this.nums = nums;
+        this.nums = nums;    
     }
-
-	valueOf() {
+    
+    valueOf(): number {
         return this.nums.reduce((a, b) => a + b, 0);
     }
-
-	toString() {
-        return JSON.stringify(this.nums)
+    
+    toString(): string {
+        return `[${this.nums.join(',')}]`;
     }
 };
 

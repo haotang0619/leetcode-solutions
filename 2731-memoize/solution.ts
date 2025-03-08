@@ -1,14 +1,12 @@
-type Fn = (...params: any) => any
+type Fn = (...params: number[]) => number
 
 function memoize(fn: Fn): Fn {
-    var records = {};
-    
+    const cache = {};
+    let cnt = 0;
+
     return function(...args) {
-        let result = records[JSON.stringify([...args])];
-        if(result !== undefined) return result; 
-        result = fn(...args);
-        records[JSON.stringify([...args])] = result
-        return result;
+        let input = JSON.stringify(args);
+        return cache[input] ?? (cache[input] = fn(...args));
     }
 }
 

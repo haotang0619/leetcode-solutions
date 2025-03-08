@@ -1,4 +1,4 @@
-> Submitted: 2023-06-11T10:23:32.000Z
+> Submitted: 2025-03-03T05:22:58.000Z
 
 <p>Create a class&nbsp;<code>ArrayWrapper</code> that accepts&nbsp;an array of integers in its constructor. This class should have two features:</p>
 

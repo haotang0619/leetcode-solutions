@@ -1,4 +1,4 @@
-> Submitted: 2023-06-03T13:14:21.000Z
+> Submitted: 2025-03-07T06:54:56.000Z
 
 <p>Given a non-negative integer <code>x</code>, return <em>the square root of </em><code>x</code><em> rounded down to the nearest integer</em>. The returned integer should be <strong>non-negative</strong> as well.</p>
 

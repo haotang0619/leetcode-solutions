@@ -1,4 +1,4 @@
-> Submitted: 2023-06-13T13:15:52.000Z
+> Submitted: 2025-03-03T04:02:04.000Z
 
 <p>Given an integer array <code>nums</code>, a reducer function <code>fn</code>, and an initial value <code>init</code>, return the final result obtained by executing the <code>fn</code> function on each element of the array, sequentially, passing in the return value from the calculation on the preceding element.</p>
 

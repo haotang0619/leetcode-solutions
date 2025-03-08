@@ -1,5 +1,7 @@
-async function addTwoPromises(promise1: Promise<number>, promise2: Promise<number>): Promise<number> {
-    return (await promise1) + (await promise2)
+type P = Promise<number>
+
+async function addTwoPromises(promise1: P, promise2: P): P {
+    return (await promise1) + (await promise2);
 };
 
 /**

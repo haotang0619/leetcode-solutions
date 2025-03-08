@@ -1,4 +1,4 @@
-> Submitted: 2023-05-29T04:44:01.000Z
+> Submitted: 2025-03-06T04:45:20.000Z
 
 <p>Given a reference of a node in a <strong><a href="https://en.wikipedia.org/wiki/Connectivity_(graph_theory)#Connected_graph" target="_blank">connected</a></strong> undirected graph.</p>
 

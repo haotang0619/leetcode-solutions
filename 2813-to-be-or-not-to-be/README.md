@@ -1,4 +1,4 @@
-> Submitted: 2023-06-13T13:12:15.000Z
+> Submitted: 2025-03-03T03:55:43.000Z
 
 <p>Write a function&nbsp;<code>expect</code> that helps developers test their code. It should take in any value&nbsp;<code>val</code>&nbsp;and return an object with the following two functions.</p>
 

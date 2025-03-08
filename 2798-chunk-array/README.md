@@ -1,4 +1,4 @@
-> Submitted: 2023-06-11T10:26:00.000Z
+> Submitted: 2025-03-03T04:45:54.000Z
 
 <p>Given an array <code>arr</code> and a chunk size <code>size</code>, return a <strong>chunked</strong> array.</p>
 

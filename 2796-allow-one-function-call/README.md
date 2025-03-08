@@ -1,4 +1,4 @@
-> Submitted: 2023-06-13T13:16:22.000Z
+> Submitted: 2025-03-03T04:06:28.000Z
 
 <p>Given a function <code>fn</code>, return a new function that is identical to the original function except that it ensures&nbsp;<code>fn</code>&nbsp;is&nbsp;called at most once.</p>
 

@@ -1,12 +1,11 @@
-type Fn = (...args: any[]) => any
+type JSONValue = null | boolean | number | string | JSONValue[] | { [key: string]: JSONValue };
+type OnceFn = (...args: JSONValue[]) => JSONValue | undefined
 
-function once(fn: Fn): Fn {
-  let flag = false;
-  return function (...args) {
-    if(flag) return undefined;
-    flag = true;
-    return fn(...args)
-  };
+function once(fn: Function): OnceFn {
+    let cnt = 0;
+    return function (...args) {
+        return cnt++ < 1 ? fn(...args) : undefined;
+    };
 }
 
 /**

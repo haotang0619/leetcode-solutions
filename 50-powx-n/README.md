@@ -1,4 +1,4 @@
-> Submitted: 2023-05-28T09:08:19.000Z
+> Submitted: 2025-03-07T07:00:12.000Z
 
 <p>Implement <a href="http://www.cplusplus.com/reference/valarray/pow/" target="_blank">pow(x, n)</a>, which calculates <code>x</code> raised to the power <code>n</code> (i.e., <code>x<sup>n</sup></code>).</p>
 

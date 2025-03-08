@@ -1,4 +1,4 @@
-> Submitted: 2023-06-06T13:42:54.000Z
+> Submitted: 2025-03-03T04:47:36.000Z
 
 <p>Write code that enhances all arrays such that you can call the&nbsp;<code>array.last()</code>&nbsp;method on any array and it will return the last element. If there are no elements in the array, it should return&nbsp;<code>-1</code>.</p>
 

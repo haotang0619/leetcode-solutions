@@ -1,4 +1,4 @@
-> Submitted: 2023-06-13T13:17:00.000Z
+> Submitted: 2025-03-03T04:12:27.000Z
 
 <p>Given&nbsp;a positive integer <code>millis</code>, write an asynchronous function that sleeps for <code>millis</code>&nbsp;milliseconds. It can resolve any value.</p>
 

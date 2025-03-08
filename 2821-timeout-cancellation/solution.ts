@@ -1,22 +1,31 @@
-function cancellable(fn: Function, args: any[], t: number): Function {
+type JSONValue = null | boolean | number | string | JSONValue[] | { [key: string]: JSONValue };
+type Fn = (...args: JSONValue[]) => void
+
+function cancellable(fn: Fn, args: JSONValue[], t: number): Function {
     const timeout = setTimeout(() => fn(...args), t);
     return () => clearTimeout(timeout);
 };
 
 /**
- *  const result = []
+ *  const result = [];
  *
- *  const fn = (x) => x * 5
- *  const args = [2], t = 20, cancelT = 50
+ *  const fn = (x) => x * 5;
+ *  const args = [2], t = 20, cancelTimeMs = 50;
+ *
+ *  const start = performance.now();
  *
  *  const log = (...argsArr) => {
- *      result.push(fn(...argsArr))
+ *      const diff = Math.floor(performance.now() - start);
+ *      result.push({"time": diff, "returned": fn(...argsArr)});
  *  }
  *       
- *  const cancel = cancellable(fn, args, t);
+ *  const cancel = cancellable(log, args, t);
+ *
+ *  const maxT = Math.max(t, cancelTimeMs);
  *           
+ *  setTimeout(cancel, cancelTimeMs);
+ *
  *  setTimeout(() => {
- *     cancel()
- *     console.log(result) // [{"time":20,"returned":10}]
- *  }, cancelT)
+ *      console.log(result); // [{"time":20,"returned":10}]
+ *  }, maxT + 15)
  */

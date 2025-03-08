@@ -1,4 +1,4 @@
-> Submitted: 2023-06-10T16:24:53.000Z
+> Submitted: 2025-03-03T04:53:38.000Z
 
 <p>Given an array <code>arr</code> and a function <code>fn</code>, return a sorted array <code>sortedArr</code>. You can assume&nbsp;<code>fn</code>&nbsp;only returns numbers and those numbers determine the sort order of&nbsp;<code>sortedArr</code>. <code>sortedArr</code> must be sorted in <strong>ascending order</strong> by <code>fn</code> output.</p>
 

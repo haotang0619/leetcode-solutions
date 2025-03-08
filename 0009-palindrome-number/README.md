@@ -1,4 +1,4 @@
-> Submitted: 2023-06-05T13:54:39.000Z
+> Submitted: 2025-03-07T06:36:56.000Z
 
 <p>Given an integer <code>x</code>, return <code>true</code> if <code>x</code> is a <span data-keyword="palindrome-integer"><strong>palindrome</strong></span>, and <code>false</code> otherwise.</p>
 

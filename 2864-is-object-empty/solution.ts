@@ -1,3 +1,6 @@
-function isEmpty(obj: Record<string, any> | any[]): boolean {
-    return JSON.stringify(obj).length === 2;
+type JSONValue = null | boolean | number | string | JSONValue[] | { [key: string]: JSONValue };
+type Obj = Record<string, JSONValue> | JSONValue[]
+
+function isEmpty(obj: Obj): boolean {
+    return Object.keys(obj).length == 0;
 };

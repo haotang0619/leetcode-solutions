@@ -1,4 +1,4 @@
-> Submitted: 2023-06-13T13:16:34.000Z
+> Submitted: 2025-03-03T04:11:11.000Z
 
 <p>Given a function <code>fn</code>, return a&nbsp;<strong>memoized</strong>&nbsp;version of that function.</p>
 

@@ -1,4 +1,4 @@
-> Submitted: 2023-06-13T13:11:38.000Z
+> Submitted: 2025-03-03T03:52:23.000Z
 
 Write a function&nbsp;<code>createHelloWorld</code>.&nbsp;It should return a new function that always returns&nbsp;<code>&quot;Hello World&quot;</code>.
 <p>&nbsp;</p>

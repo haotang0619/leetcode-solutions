@@ -1,4 +1,4 @@
-> Submitted: 2023-06-13T13:14:24.000Z
+> Submitted: 2025-03-03T04:00:37.000Z
 
 <p>Given an integer array <code>arr</code> and a filtering function <code>fn</code>, return a filtered array <code>filteredArr</code>.</p>
 

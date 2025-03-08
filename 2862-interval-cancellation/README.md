@@ -1,4 +1,4 @@
-> Submitted: 2023-06-13T13:17:23.000Z
+> Submitted: 2025-03-03T04:19:32.000Z
 
 <p>Given a function <code>fn</code>, an array of arguments&nbsp;<code>args</code>, and&nbsp;an interval time <code>t</code>, return a cancel function <code>cancelFn</code>.</p>
 

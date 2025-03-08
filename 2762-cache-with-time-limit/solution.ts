@@ -1,30 +1,31 @@
 class TimeLimitedCache {
-    private records: Record<number, number> = {};
-    private timeout: Record<number, any> = {};
-
+    private cache = {};
+    
+    constructor() {}
+    
     set(key: number, value: number, duration: number): boolean {
-        const exist = !!this.records[key];
-        this.records[key] = value;
-        clearTimeout(this.timeout[key]);
-        this.timeout[key] = setTimeout(() => {
-            delete this.records[key];
-        }, duration)
-        return exist;
+        let result = false;
+        if(!!this.cache[key]) {
+            result = true;
+            clearTimeout(this.cache[key]?.timeout);
+        } 
+        let timeout = setTimeout(() => { delete this.cache[key]; }, duration);
+        this.cache[key] = { value, timeout };
+        return result;
     }
-
+    
     get(key: number): number {
-        return this.records[key] ?? -1;
+        return this.cache[key]?.value ?? -1; 
     }
-
-	count(): number {
-        return Object.keys(this.records).length
+    
+    count(): number {
+        return Object.keys(this.cache).length;
     }
 }
 
 /**
- * Your TimeLimitedCache object will be instantiated and called as such:
- * var obj = new TimeLimitedCache()
- * obj.set(1, 42, 1000); // false
- * obj.get(1) // 42
- * obj.count() // 1
+ * const timeLimitedCache = new TimeLimitedCache()
+ * timeLimitedCache.set(1, 42, 1000); // false
+ * timeLimitedCache.get(1) // 42
+ * timeLimitedCache.count() // 1
  */

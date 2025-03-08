@@ -1,4 +1,4 @@
-> Submitted: 2023-06-10T16:32:21.000Z
+> Submitted: 2025-03-03T04:44:24.000Z
 
 <p>Given an object or an array, return if it is empty.</p>
 
