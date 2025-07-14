@@ -1,4 +1,4 @@
-> Submitted: 2025-03-03T17:20:58.000Z
+> Submitted: 2025-07-09T14:12:13.000Z
 
 <p>Given an array of <code>points</code> where <code>points[i] = [x<sub>i</sub>, y<sub>i</sub>]</code> represents a point on the <strong>X-Y</strong> plane, return <em>the maximum number of points that lie on the same straight line</em>.</p>
 

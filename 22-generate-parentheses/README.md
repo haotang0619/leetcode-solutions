@@ -1,4 +1,4 @@
-> Submitted: 2023-05-26T15:51:50.000Z
+> Submitted: 2025-07-07T08:34:18.000Z
 
 <p>Given <code>n</code> pairs of parentheses, write a function to <em>generate all combinations of well-formed parentheses</em>.</p>
 

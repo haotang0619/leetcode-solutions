@@ -1,4 +1,4 @@
-> Submitted: 2023-06-24T17:42:56.000Z
+> Submitted: 2025-07-01T18:33:57.000Z
 
 <p>You are given a <strong>0-indexed</strong> array <code>words</code> containing <code>n</code> strings.</p>
 
