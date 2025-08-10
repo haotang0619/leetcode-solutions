@@ -1,4 +1,4 @@
-> Submitted: 2023-06-03T17:31:54.000Z
+> Submitted: 2025-08-09T08:42:00.000Z
 
 <p>Given an integer <code>n</code>, return <em><code>true</code> if it is a power of two. Otherwise, return <code>false</code></em>.</p>
 

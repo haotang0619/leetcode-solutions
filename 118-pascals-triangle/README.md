@@ -1,4 +1,4 @@
-> Submitted: 2025-07-13T11:39:49.000Z
+> Submitted: 2025-08-01T02:59:16.000Z
 
 <p>Given an integer <code>numRows</code>, return the first numRows of <strong>Pascal&#39;s triangle</strong>.</p>
 

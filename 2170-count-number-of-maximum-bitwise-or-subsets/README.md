@@ -1,4 +1,4 @@
-> Submitted: 2025-03-08T12:30:16.000Z
+> Submitted: 2025-07-28T03:05:38.000Z
 
 <p>Given an integer array <code>nums</code>, find the <strong>maximum</strong> possible <strong>bitwise OR</strong> of a subset of <code>nums</code> and return <em>the <strong>number of different non-empty subsets</strong> with the maximum bitwise OR</em>.</p>
 

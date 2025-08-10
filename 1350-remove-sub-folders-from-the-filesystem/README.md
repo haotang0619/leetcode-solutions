@@ -1,4 +1,4 @@
-> Submitted: 2025-03-09T06:16:07.000Z
+> Submitted: 2025-07-19T08:27:20.000Z
 
 <p>Given a list of folders <code>folder</code>, return <em>the folders after removing all <strong>sub-folders</strong> in those folders</em>. You may return the answer in <strong>any order</strong>.</p>
 

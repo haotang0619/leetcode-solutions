@@ -1,4 +1,4 @@
-> Submitted: 2025-03-09T02:34:23.000Z
+> Submitted: 2025-08-05T05:27:24.000Z
 
 <p>You are given two arrays of integers, <code>fruits</code> and <code>baskets</code>, each of length <code>n</code>, where <code>fruits[i]</code> represents the <strong>quantity</strong> of the <code>i<sup>th</sup></code> type of fruit, and <code>baskets[j]</code> represents the <strong>capacity</strong> of the <code>j<sup>th</sup></code> basket.</p>
 
