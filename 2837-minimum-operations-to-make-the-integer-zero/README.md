@@ -1,4 +1,4 @@
-> Submitted: 2023-06-25T03:44:30.000Z
+> Submitted: 2025-09-05T17:48:53.000Z
 
 <p>You are given two integers <code>num1</code> and <code>num2</code>.</p>
 

@@ -2,32 +2,31 @@ class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
         for(int i = 0; i < 9; i++) {
-            set<char> st1;
-            set<char> st2;
+            set<char> st1, st2;
             for(int j = 0; j < 9; j++) {
-                char c1 = board[i][j];
-                char c2 = board[j][i];
-                if(c1 != '.' && st1.find(c1) != st1.end()) return false;
-                if(c2 != '.' && st2.find(c2) != st2.end()) return false;
-                st1.insert(c1);
-                st2.insert(c2);
+                if(board[i][j] != '.') {
+                    if(st1.contains(board[i][j])) return false;
+                    st1.insert(board[i][j]);
+                }
+                if(board[j][i] != '.') {
+                    if(st2.contains(board[j][i])) return false;
+                    st2.insert(board[j][i]);
+                }
             }
         }
-
-        for(int i = 0; i < 9; i += 3) {
-            for(int j = 0; j < 9; j += 3) {
+        for(int i = 0; i < 3; i++) {
+            for(int j = 0; j < 3; j++) {
                 set<char> st;
-                for(int k = 0; k < 3; k++) {
-                    for (int l = 0; l < 3; l++) {
-                        int x = i + k, y = j + l;
-                        char c = board[x][y];
-                        if(c != '.' && st.find(c) != st.end()) return false;
-                        st.insert(c);
+                for(int k = i * 3; k < i * 3 + 3; k++) {
+                    for(int l = j * 3; l < j * 3 + 3; l++) {
+                        if(board[k][l] != '.') {
+                            if(st.contains(board[k][l])) return false;
+                            st.insert(board[k][l]);
+                        }
                     }
                 }
             }
         }
-        
         return true;
     }
 };

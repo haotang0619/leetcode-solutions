@@ -1,4 +1,4 @@
-> Submitted: 2023-06-09T10:42:10.000Z
+> Submitted: 2025-08-24T16:45:15.000Z
 
 <p>Given a binary array <code>nums</code>, you should delete one element from it.</p>
 

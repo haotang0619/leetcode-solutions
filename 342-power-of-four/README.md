@@ -1,4 +1,4 @@
-> Submitted: 2025-06-30T19:44:11.000Z
+> Submitted: 2025-08-15T01:50:40.000Z
 
 <p>Given an integer <code>n</code>, return <em><code>true</code> if it is a power of four. Otherwise, return <code>false</code></em>.</p>
 

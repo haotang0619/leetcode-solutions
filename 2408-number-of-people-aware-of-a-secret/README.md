@@ -1,4 +1,4 @@
-> Submitted: 2025-07-13T11:22:06.000Z
+> Submitted: 2025-09-09T11:54:00.000Z
 
 <p>On day <code>1</code>, one person discovers a secret.</p>
 

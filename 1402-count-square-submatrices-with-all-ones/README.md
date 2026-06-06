@@ -1,4 +1,4 @@
-> Submitted: 2025-03-09T06:21:29.000Z
+> Submitted: 2025-08-20T02:51:20.000Z
 
 <p>Given a <code>m * n</code> matrix of ones and zeros, return how many <strong>square</strong> submatrices have all ones.</p>
 
