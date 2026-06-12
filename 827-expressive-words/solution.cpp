@@ -1,37 +1,51 @@
 class Solution {
 public:
-    vector<pair<int, char>> getVector(string s) {
-        vector<pair<int, char>> v;
-        char prev = s[0];
-        int cnt = 1;
-        for(int i = 1; i < s.length(); i++) {
-            if(prev == s[i]) cnt++;
-            else {
-                v.push_back({cnt, prev});
-                cnt = 1;
-            }
-            prev = s[i];
-        }
-        v.push_back({cnt, prev});    
-        return v;
-    }
-
     int expressiveWords(string s, vector<string>& words) {
-        vector<pair<int, char>> v = getVector(s);
-
+        vector<pair<char, int>> v;
+        char prev = '\0', cnt = 0;
+        for(auto c : s) {
+            if(c != prev) {
+                if(prev != '\0') v.push_back({prev, cnt});
+                cnt = 0;
+            }
+            prev = c;
+            cnt++;
+        }
+        v.push_back({prev, cnt});
         int ans = 0;
         for(auto w : words) {
-            vector<pair<int, char>> v1 = getVector(w);
-            if(v.size() == v1.size()) {
-                bool flag = true;
-                for(int i = 0; i < v.size(); i++) {
-                    if(v[i].second != v1[i].second || v[i].first < 3 && v[i].first != v1[i].first || v[i].first >= 3 && v[i].first < v1[i].first) {
-                        flag = false;
-                        break;
+            prev = '\0', cnt = 0;
+            int idx = 0;
+            bool valid = true;
+            for(auto c : w) {
+                if(c != prev) {
+                    if(prev != '\0') {
+                        if(idx >= v.size() || prev != v[idx].first || cnt > v[idx].second) {
+                            valid = false;
+                            break;
+                        }
+                        if(cnt != v[idx].second && v[idx].second < 3) {
+                            valid = false;
+                            break;
+                        }
+                        idx++;
                     }
+                    cnt = 0;
                 }
-                ans += flag ? 1 : 0;
+                prev = c;
+                cnt++;
             }
+            if(idx < v.size()) {
+                if(prev != v[idx].first || cnt > v[idx].second) {
+                    valid = false;
+                }
+                if(cnt != v[idx].second && v[idx].second < 3) {
+                    valid = false;
+                }
+                idx++;
+            } else valid = false;
+            if(idx != v.size()) valid = false;
+            if(valid) ans++;
         }
         return ans;
     }

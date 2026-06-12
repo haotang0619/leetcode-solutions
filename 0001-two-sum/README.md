@@ -1,4 +1,4 @@
-> Submitted: 2025-02-26T11:05:24.000Z
+> Submitted: 2026-06-10T19:32:05.000Z
 
 <p>You are given an array of integers <code>nums</code>&nbsp;and an integer <code>target</code>, return <em>indices of the two numbers such that they add up to <code>target</code></em>.</p>
 

@@ -1,4 +1,4 @@
-> Submitted: 2025-07-01T17:12:24.000Z
+> Submitted: 2026-06-12T07:22:31.000Z
 
 <p>There is an undirected tree with <code>n</code> nodes labeled from 1 to <code>n</code>, rooted at node 1. The tree is represented by a 2D integer array <code>edges</code> of length <code>n - 1</code>, where <code>edges[i] = [u<sub>i</sub>, v<sub>i</sub>]</code> indicates that there is an edge between nodes <code>u<sub>i</sub></code> and <code>v<sub>i</sub></code>.</p>
 

@@ -1,4 +1,4 @@
-> Submitted: 2026-06-05T08:05:40.000Z
+> Submitted: 2026-06-11T08:57:17.000Z
 
 <p>There is a robot starting at the position <code>(0, 0)</code>, the origin, on a 2D plane. Given a sequence of its moves, judge if this robot <strong>ends up at </strong><code>(0, 0)</code> after it completes its moves.</p>
 
