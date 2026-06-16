@@ -1,4 +1,4 @@
-> Submitted: 2023-06-09T16:15:35.000Z
+> Submitted: 2026-06-14T04:52:15.000Z
 
 <p>In a linked list of size <code>n</code>, where <code>n</code> is <strong>even</strong>, the <code>i<sup>th</sup></code> node (<strong>0-indexed</strong>) of the linked list is known as the <strong>twin</strong> of the <code>(n-1-i)<sup>th</sup></code> node, if <code>0 &lt;= i &lt;= (n / 2) - 1</code>.</p>
 

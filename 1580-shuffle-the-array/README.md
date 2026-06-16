@@ -1,4 +1,4 @@
-> Submitted: 2026-06-11T17:50:27.000Z
+> Submitted: 2026-06-13T08:05:05.000Z
 
 <p>Given the array <code>nums</code> consisting of <code>2n</code> elements in the form <code>[x<sub>1</sub>,x<sub>2</sub>,...,x<sub>n</sub>,y<sub>1</sub>,y<sub>2</sub>,...,y<sub>n</sub>]</code>.</p>
 

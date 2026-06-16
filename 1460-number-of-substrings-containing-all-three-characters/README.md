@@ -1,4 +1,4 @@
-> Submitted: 2025-03-11T02:07:02.000Z
+> Submitted: 2026-06-16T08:11:44.000Z
 
 <p>Given a string <code>s</code>&nbsp;consisting only of characters <em>a</em>, <em>b</em> and <em>c</em>.</p>
 

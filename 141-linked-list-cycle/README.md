@@ -1,4 +1,4 @@
-> Submitted: 2025-02-26T15:50:52.000Z
+> Submitted: 2026-06-16T07:45:49.000Z
 
 <p>Given <code>head</code>, the head of a linked list, determine if the linked list has a cycle in it.</p>
 

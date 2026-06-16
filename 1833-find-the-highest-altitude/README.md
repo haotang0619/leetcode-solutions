@@ -1,4 +1,4 @@
-> Submitted: 2023-06-09T10:46:02.000Z
+> Submitted: 2026-06-15T07:51:53.000Z
 
 <p>There is a biker going on a road trip. The road trip consists of <code>n + 1</code> points at various altitudes. The biker starts his trip on point <code>0</code> with altitude equal <code>0</code>.</p>
 

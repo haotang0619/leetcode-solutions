@@ -1,4 +1,4 @@
-> Submitted: 2023-06-10T07:56:21.000Z
+> Submitted: 2026-06-13T11:44:44.000Z
 
 <p>You are given an array of variable pairs <code>equations</code> and an array of real numbers <code>values</code>, where <code>equations[i] = [A<sub>i</sub>, B<sub>i</sub>]</code> and <code>values[i]</code> represent the equation <code>A<sub>i</sub> / B<sub>i</sub> = values[i]</code>. Each <code>A<sub>i</sub></code> or <code>B<sub>i</sub></code> is a string that represents a single variable.</p>
 

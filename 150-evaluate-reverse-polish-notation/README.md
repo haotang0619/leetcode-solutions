@@ -1,4 +1,4 @@
-> Submitted: 2025-02-26T13:57:59.000Z
+> Submitted: 2026-06-13T08:31:46.000Z
 
 <p>You are given an array of strings <code>tokens</code> that represents an arithmetic expression in a <a href="http://en.wikipedia.org/wiki/Reverse_Polish_notation" target="_blank">Reverse Polish Notation</a>.</p>
 

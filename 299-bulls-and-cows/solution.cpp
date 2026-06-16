@@ -1,20 +1,15 @@
 class Solution {
 public:
     string getHint(string secret, string guess) {
-        map<int, pair<int, int>> mp;
-        map<int, int> mp2;
-        for (int i = 0; i < secret.size(); i++) {
-            mp[secret[i]].first++;
-            if (secret[i] == guess[i]) mp[secret[i]].second++;
-            mp2[guess[i]]++;
+        int a = 0, b = 0, n = secret.size();
+        unordered_map<int, int> mp1, mp2;
+        for(int i = 0; i < n; i++) {
+            if(secret[i] == guess[i]) a++;
+            mp1[secret[i] - '0']++;
+            mp2[guess[i] - '0']++;
         }
-    
-        int bulls = 0, cows = 0;
-        for (auto x : mp) {
-            if (x.second.second > 0) bulls += x.second.second;
-            cows += max(0, min(mp2[x.first], x.second.first) - x.second.second);
-        }
-        string ans = to_string(bulls) + "A" + to_string(cows) + "B";
-        return ans;
+        for(int i = 0; i <= 9; i++) b += min(mp1[i], mp2[i]);
+        b -= a;
+        return to_string(a) + 'A' + to_string(b) + 'B';
     }
 };

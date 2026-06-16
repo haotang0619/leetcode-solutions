@@ -1,4 +1,4 @@
-> Submitted: 2025-03-02T06:16:58.000Z
+> Submitted: 2026-06-15T16:50:51.000Z
 
 <p>There is an integer array <code>nums</code> sorted in ascending order (with <strong>distinct</strong> values).</p>
 

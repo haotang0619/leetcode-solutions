@@ -1,4 +1,4 @@
-> Submitted: 2026-06-11T17:49:04.000Z
+> Submitted: 2026-06-15T16:33:57.000Z
 
 <p>Given an array of integers <code>nums</code> which is sorted in ascending order, and an integer <code>target</code>, write a function to search <code>target</code> in <code>nums</code>. If <code>target</code> exists, then return its index. Otherwise, return <code>-1</code>.</p>
 

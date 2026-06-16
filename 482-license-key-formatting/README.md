@@ -1,4 +1,4 @@
-> Submitted: 2023-06-03T17:06:22.000Z
+> Submitted: 2026-06-14T15:14:35.000Z
 
 <p>You are given a license key represented as a string <code>s</code> that consists of only alphanumeric characters and dashes. The string is separated into <code>n + 1</code> groups by <code>n</code> dashes. You are also given an integer <code>k</code>.</p>
 

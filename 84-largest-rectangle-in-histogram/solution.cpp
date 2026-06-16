@@ -11,7 +11,7 @@ public:
                 ans = max(ans, h * (i - prev));
             }
             int prev = sk.empty() ? 0 : get<2>(sk.top()) + 1;
-            cout << heights[i] << " " << prev << endl;
+            // cout << heights[i] << " " << prev << endl;
             sk.push({heights[i], prev, i});
         }
         return ans;

@@ -1,4 +1,4 @@
-> Submitted: 2026-06-05T13:58:53.000Z
+> Submitted: 2026-06-14T16:36:10.000Z
 
 <img height="172" src="https://assets.leetcode.com/uploads/2026/06/04/image.png" width="284" />
 <p>You have a keyboard layout as shown above in the <strong>X-Y</strong> plane, where each English uppercase letter is located at some coordinate.</p>

@@ -1,4 +1,4 @@
-> Submitted: 2026-06-11T15:32:43.000Z
+> Submitted: 2026-06-13T08:05:20.000Z
 
 <p>Given a binary array <code>nums</code>, return <em>the maximum number of consecutive </em><code>1</code><em>&#39;s in the array</em>.</p>
 

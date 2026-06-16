@@ -1,4 +1,4 @@
-> Submitted: 2023-06-09T12:08:12.000Z
+> Submitted: 2026-06-15T05:22:09.000Z
 
 <p>You are given the <code>head</code> of a linked list. <strong>Delete</strong> the <strong>middle node</strong>, and return <em>the</em> <code>head</code> <em>of the modified linked list</em>.</p>
 

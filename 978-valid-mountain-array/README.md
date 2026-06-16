@@ -1,4 +1,4 @@
-> Submitted: 2025-07-27T12:33:43.000Z
+> Submitted: 2026-06-13T09:45:50.000Z
 
 <p>Given an array of integers <code>arr</code>, return <em><code>true</code> if and only if it is a valid mountain array</em>.</p>
 

@@ -1,4 +1,4 @@
-> Submitted: 2025-02-26T11:10:13.000Z
+> Submitted: 2026-06-16T08:09:56.000Z
 
 <p>Given an integer array <code>nums</code> and an integer <code>k</code>, return <code>true</code> <em>if there are two <strong>distinct indices</strong> </em><code>i</code><em> and </em><code>j</code><em> in the array such that </em><code>nums[i] == nums[j]</code><em> and </em><code>abs(i - j) &lt;= k</code>.</p>
 

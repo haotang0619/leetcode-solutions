@@ -1,4 +1,4 @@
-> Submitted: 2025-02-13T02:47:44.000Z
+> Submitted: 2026-06-13T11:24:34.000Z
 
 <p>You are playing the <strong><a href="https://en.wikipedia.org/wiki/Bulls_and_Cows" target="_blank">Bulls and Cows</a></strong> game with your friend.</p>
 

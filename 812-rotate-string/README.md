@@ -1,4 +1,4 @@
-> Submitted: 2025-03-09T07:01:48.000Z
+> Submitted: 2026-06-14T17:00:03.000Z
 
 <p>Given two strings <code>s</code> and <code>goal</code>, return <code>true</code> <em>if and only if</em> <code>s</code> <em>can become</em> <code>goal</code> <em>after some number of <strong>shifts</strong> on</em> <code>s</code>.</p>
 

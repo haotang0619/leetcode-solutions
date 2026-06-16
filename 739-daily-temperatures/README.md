@@ -1,4 +1,4 @@
-> Submitted: 2023-06-12T05:49:57.000Z
+> Submitted: 2026-06-13T08:56:36.000Z
 
 <p>Given an array of integers <code>temperatures</code> represents the daily temperatures, return <em>an array</em> <code>answer</code> <em>such that</em> <code>answer[i]</code> <em>is the number of days you have to wait after the</em> <code>i<sup>th</sup></code> <em>day to get a warmer temperature</em>. If there is no future day for which this is possible, keep <code>answer[i] == 0</code> instead.</p>
 

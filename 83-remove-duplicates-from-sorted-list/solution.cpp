@@ -14,7 +14,9 @@ public:
         ListNode* node = head;
         while(node != NULL) {
             ListNode* prev = node;
-            while(node->next != NULL && node->next->val == node->val) node = node->next;
+            while(node->next != NULL && node->next->val == node->val) {
+                node = node->next;
+            }
             prev->next = node->next;
             node = node->next;
         }

@@ -1,4 +1,4 @@
-> Submitted: 2025-03-09T09:38:17.000Z
+> Submitted: 2026-06-13T08:52:01.000Z
 
 <p>You are given an integer array <code>prices</code> where <code>prices[i]</code> is the price of the <code>i<sup>th</sup></code> item in a shop.</p>
 

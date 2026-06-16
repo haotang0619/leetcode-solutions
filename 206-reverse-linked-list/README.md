@@ -1,4 +1,4 @@
-> Submitted: 2023-06-09T16:08:53.000Z
+> Submitted: 2026-06-15T06:12:13.000Z
 
 <p>Given the <code>head</code> of a singly linked list, reverse the list, and return <em>the reversed list</em>.</p>
 

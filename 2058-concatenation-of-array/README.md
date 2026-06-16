@@ -1,4 +1,4 @@
-> Submitted: 2026-06-11T15:23:26.000Z
+> Submitted: 2026-06-13T08:04:47.000Z
 
 <p>Given an integer array <code>nums</code> of length <code>n</code>, you want to create an array <code>ans</code> of length <code>2n</code> where <code>ans[i] == nums[i]</code> and <code>ans[i + n] == nums[i]</code> for <code>0 &lt;= i &lt; n</code> (<strong>0-indexed</strong>).</p>
 

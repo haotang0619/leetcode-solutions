@@ -1,4 +1,4 @@
-> Submitted: 2025-03-04T16:21:16.000Z
+> Submitted: 2026-06-15T05:51:03.000Z
 
 <p>Given the <code>head</code> of a sorted linked list, <em>delete all duplicates such that each element appears only once</em>. Return <em>the linked list <strong>sorted</strong> as well</em>.</p>
 

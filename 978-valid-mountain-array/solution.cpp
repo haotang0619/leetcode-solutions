@@ -1,22 +1,17 @@
 class Solution {
 public:
     bool validMountainArray(vector<int>& arr) {
-        if(arr.size() < 3) return false;
-        bool isAsc = true;
-        int ascCnt = 1, descCnt = 0;
+        int status = 0;
         for(int i = 1; i < arr.size(); i++) {
-            if(isAsc) {
-                if(arr[i] > arr[i - 1]) ascCnt++;
-                else if(arr[i] == arr[i - 1]) return false;
-                else {
-                    isAsc = false;
-                    descCnt = 2;
-                }
+            if(arr[i] == arr[i - 1]) return false;
+            if(arr[i] > arr[i - 1]) {
+                if(status == 0) status = 1;
+                else if(status != 1) return false;
             } else {
-                if(arr[i] < arr[i - 1]) descCnt++;
-                else return false;
+                if(status == 1) status = 2;
+                else if(status != 2) return false;
             }
         }
-        return ascCnt > 1 && descCnt > 1;
+        return status == 2;
     }
 };

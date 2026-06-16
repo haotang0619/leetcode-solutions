@@ -1,4 +1,4 @@
-> Submitted: 2025-07-18T18:35:46.000Z
+> Submitted: 2026-06-16T07:42:36.000Z
 
 <p>You are given a string <code>s</code> consisting of lowercase English letters and the special characters: <code>*</code>, <code>#</code>, and <code>%</code>.</p>
 
