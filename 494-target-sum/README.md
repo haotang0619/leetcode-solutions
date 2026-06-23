@@ -1,4 +1,4 @@
-> Submitted: 2026-06-11T17:54:52.000Z
+> Submitted: 2026-06-22T13:18:29.000Z
 
 <p>You are given an integer array <code>nums</code> and an integer <code>target</code>.</p>
 

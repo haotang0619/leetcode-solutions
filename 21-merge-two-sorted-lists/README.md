@@ -1,4 +1,4 @@
-> Submitted: 2025-02-26T16:03:28.000Z
+> Submitted: 2026-06-17T11:58:28.000Z
 
 <p>You are given the heads of two sorted linked lists <code>list1</code> and <code>list2</code>.</p>
 

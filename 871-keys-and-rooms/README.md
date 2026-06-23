@@ -1,4 +1,4 @@
-> Submitted: 2023-06-10T07:09:09.000Z
+> Submitted: 2026-06-21T08:37:37.000Z
 
 <p>There are <code>n</code> rooms labeled from <code>0</code> to <code>n - 1</code>&nbsp;and all the rooms are locked except for room <code>0</code>. Your goal is to visit all the rooms. However, you cannot enter a locked room without having its key.</p>
 

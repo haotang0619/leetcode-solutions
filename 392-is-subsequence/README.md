@@ -1,4 +1,4 @@
-> Submitted: 2023-06-13T09:51:40.000Z
+> Submitted: 2026-06-20T10:52:47.000Z
 
 <p>Given two strings <code>s</code> and <code>t</code>, return <code>true</code><em> if </em><code>s</code><em> is a <strong>subsequence</strong> of </em><code>t</code><em>, or </em><code>false</code><em> otherwise</em>.</p>
 

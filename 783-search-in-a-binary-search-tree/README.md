@@ -1,4 +1,4 @@
-> Submitted: 2023-06-10T06:48:27.000Z
+> Submitted: 2026-06-21T08:58:45.000Z
 
 <p>You are given the <code>root</code> of a binary search tree (BST) and an integer <code>val</code>.</p>
 

@@ -1,4 +1,4 @@
-> Submitted: 2023-06-13T03:17:29.000Z
+> Submitted: 2026-06-21T13:42:55.000Z
 
 <p>Write a function to find the longest common prefix string amongst an array of strings.</p>
 

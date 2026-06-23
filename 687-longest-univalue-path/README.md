@@ -1,4 +1,4 @@
-> Submitted: 2023-05-30T08:50:57.000Z
+> Submitted: 2026-06-21T08:55:46.000Z
 
 <p>Given the <code>root</code> of a binary tree, return <em>the length of the longest path, where each node in the path has the same value</em>. This path may or may not pass through the root.</p>
 

@@ -1,4 +1,4 @@
-> Submitted: 2025-08-08T21:07:15.000Z
+> Submitted: 2026-06-21T13:43:56.000Z
 
 <p>Given an array of strings <code>words</code> representing an English Dictionary, return <em>the longest word in</em> <code>words</code> <em>that can be built one character at a time by other words in</em> <code>words</code>.</p>
 

@@ -2,29 +2,27 @@ class Solution {
 public:
     int maximalSquare(vector<vector<char>>& matrix) {
         int m = matrix.size(), n = matrix[0].size();
-        vector<vector<int>> dp(m, vector<int>(n, 0));
-        for(int i = m - 1; i >= 0; i--) {
-            for(int j = n - 1; j >= 0; j--) {
-                if(matrix[i][j] == '0') dp[i][j] = 0;
-                else {
-                    if(j == n - 1) dp[i][j] = 1;
-                    else dp[i][j] = dp[i][j + 1] + 1;
-                }
-            }
-        }
-        int max_now = 0;
+        vector<vector<int>> pSum(m, vector<int>(n, 0));
         for(int i = 0; i < m; i++) {
+            int prev = 0;
             for(int j = 0; j < n; j++) {
-                int now = 0;
-                int len = dp[i][j];
-                for(int k = i; k < m; k++) {
-                    len = min(len, dp[k][j]);
-                    if(len >= k - i + 1) now = k - i + 1;
-                    else break;
-                }
-                max_now = max(max_now, now);
+                pSum[i][j] = prev + (matrix[i][j] - '0');
+                if(i > 0) pSum[i][j] += pSum[i - 1][j];
+                prev += (matrix[i][j] - '0');
             }
         }
-        return max_now * max_now;
+        for(int i = min(m, n); i >= 1; i--) {
+            for(int x = 0; x < m - i + 1; x++) {
+                for(int y = 0; y < n - i + 1; y++) {
+                    int sum = 0;
+                    sum += pSum[x + i - 1][y + i - 1];
+                    if(x > 0) sum -= pSum[x - 1][y + i - 1];
+                    if(y > 0) sum -= pSum[x + i - 1][y - 1];
+                    if(x > 0 && y > 0) sum += pSum[x - 1][y - 1];
+                    if(sum == i * i) return sum;
+                }
+            }
+        }
+        return 0;
     }
 };

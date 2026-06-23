@@ -1,4 +1,4 @@
-> Submitted: 2023-06-09T11:41:22.000Z
+> Submitted: 2026-06-17T12:17:33.000Z
 
 <p>Given an encoded string, return its decoded string.</p>
 

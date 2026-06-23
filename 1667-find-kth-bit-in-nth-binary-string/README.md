@@ -1,4 +1,4 @@
-> Submitted: 2025-03-08T12:37:03.000Z
+> Submitted: 2026-06-17T11:59:37.000Z
 
 <p>Given two positive integers <code>n</code> and <code>k</code>, the binary string <code>S<sub>n</sub></code> is formed as follows:</p>
 

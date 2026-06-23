@@ -1,4 +1,4 @@
-> Submitted: 2025-02-28T17:28:35.000Z
+> Submitted: 2026-06-17T12:19:44.000Z
 
 <p>Given two integers <code>n</code> and <code>k</code>, return <em>all possible combinations of</em> <code>k</code> <em>numbers chosen from the range</em> <code>[1, n]</code>.</p>
 

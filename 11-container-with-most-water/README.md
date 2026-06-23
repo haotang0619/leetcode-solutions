@@ -1,4 +1,4 @@
-> Submitted: 2025-03-03T17:43:16.000Z
+> Submitted: 2026-06-22T13:07:42.000Z
 
 <p>You are given an integer array <code>height</code> of length <code>n</code>. There are <code>n</code> vertical lines drawn such that the two endpoints of the <code>i<sup>th</sup></code> line are <code>(i, 0)</code> and <code>(i, height[i])</code>.</p>
 

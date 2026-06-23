@@ -1,4 +1,4 @@
-> Submitted: 2023-06-11T07:42:41.000Z
+> Submitted: 2026-06-22T13:22:55.000Z
 
 <p>You are a professional robber planning to rob houses along a street. Each house has a certain amount of money stashed, the only constraint stopping you from robbing each of them is that adjacent houses have security systems connected and <b>it will automatically contact the police if two adjacent houses were broken into on the same night</b>.</p>
 

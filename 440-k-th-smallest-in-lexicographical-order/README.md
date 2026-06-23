@@ -1,4 +1,4 @@
-> Submitted: 2025-07-21T05:42:03.000Z
+> Submitted: 2026-06-21T13:44:50.000Z
 
 <p>Given two integers <code>n</code> and <code>k</code>, return <em>the</em> <code>k<sup>th</sup></code> <em>lexicographically smallest integer in the range</em> <code>[1, n]</code>.</p>
 

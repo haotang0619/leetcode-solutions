@@ -19,7 +19,7 @@ public:
             int cnt = countChildren(now, n);
             if(cnt >= k) {
                 now *= 10;
-                k -= 1;
+                k--;
             } else {
                 now += 1;
                 k -= cnt + 1;
