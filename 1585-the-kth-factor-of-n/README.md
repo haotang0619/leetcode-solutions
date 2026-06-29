@@ -1,4 +1,4 @@
-> Submitted: 2023-06-11T11:35:20.000Z
+> Submitted: 2026-06-23T09:29:46.000Z
 
 <p>You are given two positive integers <code>n</code> and <code>k</code>. A factor of an integer <code>n</code> is defined as an integer <code>i</code> where <code>n % i == 0</code>.</p>
 
