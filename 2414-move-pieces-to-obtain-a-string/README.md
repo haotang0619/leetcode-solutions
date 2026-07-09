@@ -1,4 +1,4 @@
-> Submitted: 2026-06-23T18:58:18.000Z
+> Submitted: 2026-07-02T07:29:30.000Z
 
 <p>You are given two strings <code>start</code> and <code>target</code>, both of length <code>n</code>. Each string consists <strong>only</strong> of the characters <code>&#39;L&#39;</code>, <code>&#39;R&#39;</code>, and <code>&#39;_&#39;</code> where:</p>
 

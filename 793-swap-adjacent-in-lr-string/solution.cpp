@@ -1,11 +1,11 @@
 class Solution {
 public:
-    bool canChange(string start, string target) {
+    bool canTransform(string start, string result) {
         int n = start.size();
         vector<pair<char, int>> v1, v2;
         for(int i = 0; i < n; i++) {
-            if(start[i] != '_') v1.push_back({start[i], i});
-            if(target[i] != '_') v2.push_back({target[i], i});
+            if(start[i] != 'X') v1.push_back({start[i], i});
+            if(result[i] != 'X') v2.push_back({result[i], i});
         }
         if(v1.size() != v2.size()) return false;
         int m = v1.size();
