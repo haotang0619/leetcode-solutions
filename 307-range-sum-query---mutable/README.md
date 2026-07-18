@@ -1,4 +1,4 @@
-> Submitted: 2026-06-21T09:25:42.000Z
+> Submitted: 2026-07-14T06:18:39.000Z
 
 <p>Given an integer array <code>nums</code>, handle multiple queries of the following types:</p>
 

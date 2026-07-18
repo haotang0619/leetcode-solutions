@@ -1,4 +1,4 @@
-> Submitted: 2026-06-20T09:52:57.000Z
+> Submitted: 2026-07-14T05:23:47.000Z
 
 <p>You are given a string <code>text</code> of words that are placed among some number of spaces. Each word consists of one or more lowercase English letters and are separated by at least one space. It&#39;s guaranteed that <code>text</code> <strong>contains at least one word</strong>.</p>
 

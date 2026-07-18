@@ -1,4 +1,4 @@
-> Submitted: 2025-07-27T11:58:30.000Z
+> Submitted: 2026-07-14T05:56:03.000Z
 
 <p>Your friend is typing his <code>name</code> into a keyboard. Sometimes, when typing a character <code>c</code>, the key might get <em>long pressed</em>, and the character will be typed 1 or more times.</p>
 

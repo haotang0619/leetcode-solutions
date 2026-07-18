@@ -1,4 +1,4 @@
-> Submitted: 2026-06-15T16:33:44.000Z
+> Submitted: 2026-07-11T08:31:37.000Z
 
 <p>You are given an integer <strong>mountain</strong> array <code>arr</code> of length <code>n</code> where the values increase to a <strong>peak element</strong> and then decrease.</p>
 

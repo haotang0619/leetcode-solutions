@@ -1,24 +1,28 @@
 class Solution {
 public:
+    pair<int, int> charToPos(char& c) {
+        int idx = c - 'a';
+        return {idx / 5, idx % 5};
+    }
+    
     string alphabetBoardPath(string target) {
-        unordered_map<char, pair<int, int>> mp;
-        for(int i = 0; i < 26; i++) {
-            char c = i + 'a';
-            mp[c] = {i / 5, i % 5};
-        }
-        int x = 0, y = 0;
+        pair<int, int> now = {0, 0};
         string ans;
-        for(auto c : target) {
-            auto [x1, y1] = mp[c];
+        for(auto& c : target) {
+            auto& [x1, y1] = now;
+            auto [x2, y2] = charToPos(c);
             if(x1 == 5) {
-                for(int i = 0; i < abs(y1 - y); i++) ans += y1 > y ? 'R' : 'L';
-                for(int i = 0; i < abs(x1 - x); i++) ans += x1 > x ? 'D' : 'U';
+                for(int x = x1; x > x2; x--) ans += 'U';
+                for(int y = y1; y < y2; y++) ans += 'R';
+            } else if(x2 == 5) {
+                for(int y = y1; y > y2; y--) ans += 'L';
+                for(int x = x1; x < x2; x++) ans += 'D';
             } else {
-                for(int i = 0; i < abs(x1 - x); i++) ans += x1 > x ? 'D' : 'U';
-                for(int i = 0; i < abs(y1 - y); i++) ans += y1 > y ? 'R' : 'L';
+                for(int x = 0; x < abs(x1 - x2); x++) ans += (x1 > x2 ? 'U' : 'D');
+                for(int y = 0; y < abs(y1 - y2); y++) ans += (y1 > y2 ? 'L' : 'R');
             }
-            x = x1, y = y1;
             ans += '!';
+            now = {x2, y2};
         }
         return ans;
     }

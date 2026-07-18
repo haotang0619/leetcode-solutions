@@ -1,4 +1,4 @@
-> Submitted: 2026-06-20T10:13:55.000Z
+> Submitted: 2026-07-14T05:32:01.000Z
 
 <p>You are given two integer arrays of the same length <code>nums1</code> and <code>nums2</code>. In one operation, you are allowed to swap <code>nums1[i]</code> with <code>nums2[i]</code>.</p>
 

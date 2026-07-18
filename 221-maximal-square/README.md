@@ -1,4 +1,4 @@
-> Submitted: 2026-06-20T11:10:40.000Z
+> Submitted: 2026-07-13T05:16:07.000Z
 
 <p>Given an <code>m x n</code> binary <code>matrix</code> filled with <code>0</code>&#39;s and <code>1</code>&#39;s, <em>find the largest square containing only</em> <code>1</code>&#39;s <em>and return its area</em>.</p>
 

@@ -1,4 +1,5 @@
 // Saw all hints, and used the first 2
+// First time implemented Binary Jumping
 class Solution {
 public:
     vector<int> pathExistenceQueries(int n, vector<int>& nums, int maxDiff, vector<vector<int>>& queries) {

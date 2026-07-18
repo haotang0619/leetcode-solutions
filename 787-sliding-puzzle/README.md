@@ -1,4 +1,4 @@
-> Submitted: 2026-06-14T13:57:37.000Z
+> Submitted: 2026-07-11T09:32:19.000Z
 
 <p>On an <code>2 x 3</code> board, there are five tiles labeled from <code>1</code> to <code>5</code>, and an empty square represented by <code>0</code>. A <strong>move</strong> consists of choosing <code>0</code> and a 4-directionally adjacent number and swapping it.</p>
 

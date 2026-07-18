@@ -1,4 +1,4 @@
-> Submitted: 2023-06-13T03:13:57.000Z
+> Submitted: 2026-07-16T08:06:48.000Z
 
 <p>Given <code>n</code> non-negative integers representing an elevation map where the width of each bar is <code>1</code>, compute how much water it can trap after raining.</p>
 

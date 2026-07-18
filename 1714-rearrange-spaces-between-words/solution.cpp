@@ -1,28 +1,24 @@
 class Solution {
 public:
     string reorderSpaces(string text) {
-        int scnt = 0;
-        string now;
         vector<string> words;
-        for(auto &c : text) {
+        string now = "";
+        int cnt = 0;
+        for(auto& c : text) {
             if(c == ' ') {
-                scnt++;
+                cnt++;
                 if(now.size() > 0) words.push_back(now);
                 now = "";
             } else now += c;
         }
         if(now.size() > 0) words.push_back(now);
-        string ans;
-        if(words.size() == 1) {
-            ans += words[0];
-            for(int i = 0; i < scnt; i++) ans += ' ';
-            return ans;
-        }
-        int mid = scnt / (words.size() - 1), rem = scnt % (words.size() - 1);
-        for(int i = 0; i < words.size(); i++) {
+        int n = words.size();
+        int mid = n > 1 ? (cnt / (n - 1)) : 0;
+        int left = cnt - mid * (n - 1);
+        string ans = "";
+        for(int i = 0; i < n; i++) {
             ans += words[i];
-            int x = i == words.size() - 1 ? rem : mid;
-            for(int j = 0; j < x; j++) ans += ' ';
+            for(int j = 0; j < ((i == n - 1) ? left : mid); j++) ans += ' ';
         }
         return ans;
     }

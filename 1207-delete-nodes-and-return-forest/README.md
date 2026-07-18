@@ -1,4 +1,4 @@
-> Submitted: 2026-06-13T14:36:24.000Z
+> Submitted: 2026-07-11T08:45:49.000Z
 
 <p>Given the <code>root</code> of a binary tree, each node in the tree has a distinct value.</p>
 

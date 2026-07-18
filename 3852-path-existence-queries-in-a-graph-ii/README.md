@@ -1,4 +1,4 @@
-> Submitted: 2026-07-09T03:11:21.000Z
+> Submitted: 2026-07-10T06:29:44.000Z
 
 <p>You are given an integer <code>n</code> representing the number of nodes in a graph, labeled from 0 to <code>n - 1</code>.</p>
 

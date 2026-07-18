@@ -1,4 +1,4 @@
-> Submitted: 2026-06-23T09:26:37.000Z
+> Submitted: 2026-07-18T05:41:44.000Z
 
 <p>Given an integer array <code>nums</code>, return<strong> </strong><em>the <strong>greatest common divisor</strong> of the smallest number and largest number in </em><code>nums</code>.</p>
 

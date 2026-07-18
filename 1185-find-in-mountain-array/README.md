@@ -1,4 +1,4 @@
-> Submitted: 2026-06-13T14:25:35.000Z
+> Submitted: 2026-07-11T08:39:08.000Z
 
 <p><em>(This problem is an <strong>interactive problem</strong>.)</em></p>
 

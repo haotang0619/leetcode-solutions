@@ -10,28 +10,34 @@
 
 class Solution {
 public:
-    int findInMountainArray(int target, MountainArray &mountainArr) {
-        int n = mountainArr.length();
-        int l = 0, r = n - 1;
+    int bs(int target, MountainArray &mountainArr, int l, int r, bool rev) {
         while(l < r) {
             int m = l + (r - l) / 2;
-            if(m + 1 >= n || mountainArr.get(m) >= mountainArr.get(m + 1)) r = m;
-            else l = m + 1;
+            if(mountainArr.get(m) == target) return m;
+            if(rev) {
+                if(mountainArr.get(m) > target) l = m + 1;
+                else r = m;
+            } else {
+                if(mountainArr.get(m) < target) l = m + 1;
+                else r = m;
+            }
         }
-        if(mountainArr.get(l) == target) return l;
-        int l1 = 0, r1 = l;
-        while(l1 < r1) {
-            int m = l1 + (r1 - l1) / 2;
-            if(mountainArr.get(m) >= target) r1 = m;
-            else l1 = m + 1;
+        return l;
+    }
+    
+    int findInMountainArray(int target, MountainArray &mountainArr) {
+        int n = mountainArr.length(), l = 0, r = n - 1;
+        while(l < r) {
+            int m = l + (r - l) / 2;
+            if(m + 1 < n && mountainArr.get(m) < mountainArr.get(m + 1)) {
+                l = m + 1;
+            } else r = m;
         }
-        if(mountainArr.get(l1) == target) return l1;
-        int l2 = l, r2 = n - 1;
-        while(l2 < r2) {
-            int m = l2 + (r2 - l2) / 2;
-            if(mountainArr.get(m) <= target) r2 = m;
-            else l2 = m + 1;
-        }
-        return mountainArr.get(l2) == target ? l2 : -1;
+        int mid = l;
+        int i1 = bs(target, mountainArr, 0, mid, false);
+        if(mountainArr.get(i1) == target) return i1;
+        int i2 = bs(target, mountainArr, mid + 1, n - 1, true);
+        if(mountainArr.get(i2) == target) return i2;
+        return -1;
     }
 };

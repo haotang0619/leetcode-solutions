@@ -1,4 +1,4 @@
-> Submitted: 2026-06-14T12:30:54.000Z
+> Submitted: 2026-07-11T08:54:13.000Z
 
 <p>On an alphabet board, we start at position <code>(0, 0)</code>, corresponding to character&nbsp;<code>board[0][0]</code>.</p>
 
