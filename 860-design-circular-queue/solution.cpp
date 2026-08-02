@@ -1,43 +1,42 @@
 class MyCircularQueue {
 public:
-    vector<int> qu;
-    int head = 0, end = 0, size = 0;
+    vector<int> v;
+    int i = 0, j = 0, k;
     
-    MyCircularQueue(int k) {
-        qu.resize(k);    
+    MyCircularQueue(int K) {
+        k = K;
+        v.resize(k + 1);
     }
     
     bool enQueue(int value) {
-        if(size == qu.size()) return false;
-        qu[end] = value;
-        end = (end + 1) % qu.size();
-        size++;
+        if(isFull()) return false;
+        v[j] = value;
+        j = (j + 1) % (k + 1);
         return true;
     }
     
     bool deQueue() {
-        if(size == 0) return false;
-        head = (head + 1) % qu.size();
-        size--;
+        if(isEmpty()) return false;
+        i = (i + 1) % (k + 1);
         return true;
     }
     
     int Front() {
-        if(size == 0) return -1;
-        return qu[head];
+        if(isEmpty()) return -1;
+        return v[i];
     }
     
     int Rear() {
-        if(size == 0) return -1;
-        return qu[(end - 1 + qu.size()) % qu.size()];
+        if(isEmpty()) return -1;
+        return v[(j + k) % (k + 1)];
     }
     
     bool isEmpty() {
-        return size == 0;
+        return i == j;
     }
     
     bool isFull() {
-        return size == qu.size();
+        return ((j + 1) % (k + 1)) == i;
     }
 };
 

@@ -1,4 +1,4 @@
-> Submitted: 2026-07-16T15:33:22.000Z
+> Submitted: 2026-07-21T08:26:24.000Z
 
 <p>Design a data structure to store the strings&#39; count with the ability to return the strings with minimum and maximum counts.</p>
 

@@ -1,4 +1,4 @@
-> Submitted: 2026-06-23T09:45:22.000Z
+> Submitted: 2026-08-02T02:14:11.000Z
 
 <p>Alice and Bob play a game with piles of stones. There are an <strong>even</strong> number of piles arranged in a row, and each pile has a <strong>positive</strong> integer number of stones <code>piles[i]</code>.</p>
 

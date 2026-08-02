@@ -51,7 +51,7 @@ public:
     
     bool query(char letter) {
         now = letter + now;
-        if(now.size() >= 300) now = now.substr(0, 300);
+        if(now.size() >= 300) now.pop_back();
         return t->lookup(now);
     }
 };

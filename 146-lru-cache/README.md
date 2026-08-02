@@ -1,4 +1,4 @@
-> Submitted: 2025-02-27T11:44:18.000Z
+> Submitted: 2026-07-20T04:14:53.000Z
 
 <p>Design a data structure that follows the constraints of a <strong><a href="https://en.wikipedia.org/wiki/Cache_replacement_policies#LRU" target="_blank">Least Recently Used (LRU) cache</a></strong>.</p>
 

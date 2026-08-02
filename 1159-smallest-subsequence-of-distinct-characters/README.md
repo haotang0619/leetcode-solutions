@@ -1,4 +1,4 @@
-> Submitted: 2025-02-22T02:36:27.000Z
+> Submitted: 2026-07-19T02:25:11.000Z
 
 <p>Given a string <code>s</code>, return <em>the </em><span data-keyword="lexicographically-smaller-string"><em>lexicographically smallest</em></span> <span data-keyword="subsequence-string"><em>subsequence</em></span><em> of</em> <code>s</code> <em>that contains all the distinct characters of</em> <code>s</code> <em>exactly once</em>.</p>
 

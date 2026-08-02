@@ -1,4 +1,4 @@
-> Submitted: 2023-06-12T06:11:32.000Z
+> Submitted: 2026-07-21T09:14:28.000Z
 
 <p>Design an algorithm that collects daily price quotes for some stock and returns <strong>the span</strong> of that stock&#39;s price for the current day.</p>
 

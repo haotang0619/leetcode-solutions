@@ -1,4 +1,4 @@
-> Submitted: 2026-06-13T11:13:23.000Z
+> Submitted: 2026-07-21T05:03:35.000Z
 
 <p>Design an algorithm that accepts a stream of characters and checks if a suffix of these characters is a string of a given array of strings <code>words</code>.</p>
 
