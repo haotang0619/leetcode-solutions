@@ -1,3 +1,4 @@
+// Figured out by myself
 class Solution {
 public:
     string stoneGameIII(vector<int>& stones) {
@@ -10,11 +11,11 @@ public:
             dp[n - 2] = max(stones[n - 2] + stones[n - 1], stones[n - 2]);
             sum += stones[n - 2];
             for(int i = n - 3; i >= 0; i--) {
-                int take1 = stones[i] + sum - dp[i + 1];
-                int take2 = stones[i] + sum - dp[i + 2];
-                int take3 = stones[i] + sum - dp[i + 3];
-                dp[i] = max(max(take1, take2), take3);
                 sum += stones[i];
+                int take1 = sum - dp[i + 1];
+                int take2 = sum - dp[i + 2];
+                int take3 = sum - dp[i + 3];
+                dp[i] = max(max(take1, take2), take3);
             }
         }
         if(dp[0] * 2 == sum) return "Tie";

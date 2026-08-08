@@ -1,4 +1,4 @@
-> Submitted: 2026-06-23T07:53:13.000Z
+> Submitted: 2026-08-07T15:58:46.000Z
 
 <p>Given a string <code>s</code> and a dictionary of strings <code>wordDict</code>, return <code>true</code> if <code>s</code> can be segmented into a space-separated sequence of one or more dictionary words.</p>
 

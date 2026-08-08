@@ -1,4 +1,4 @@
-> Submitted: 2026-07-17T05:05:30.000Z
+> Submitted: 2026-08-07T15:41:43.000Z
 
 <p>Given an <code>m x n</code> grid of characters <code>board</code> and a string <code>word</code>, return <code>true</code> <em>if</em> <code>word</code> <em>exists in the grid</em>.</p>
 

@@ -1,4 +1,4 @@
-> Submitted: 2026-06-25T10:36:43.000Z
+> Submitted: 2026-08-07T15:42:04.000Z
 
 <p>Given the <code>head</code> of a linked list, return <em>the list after sorting it in <strong>ascending order</strong></em>.</p>
 

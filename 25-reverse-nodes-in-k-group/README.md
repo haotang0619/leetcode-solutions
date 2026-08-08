@@ -1,4 +1,4 @@
-> Submitted: 2026-07-16T03:31:24.000Z
+> Submitted: 2026-08-07T15:06:26.000Z
 
 <p>Given the <code>head</code> of a linked list, reverse the nodes of the list <code>k</code> at a time, and return <em>the modified list</em>.</p>
 

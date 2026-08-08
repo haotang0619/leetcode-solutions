@@ -1,4 +1,4 @@
-> Submitted: 2023-06-09T17:11:02.000Z
+> Submitted: 2026-08-07T15:30:17.000Z
 
 <p>Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.</p>
 

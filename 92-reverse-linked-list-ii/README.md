@@ -1,4 +1,4 @@
-> Submitted: 2026-06-24T19:00:03.000Z
+> Submitted: 2026-08-07T15:06:16.000Z
 
 <p>Given the <code>head</code> of a singly linked list and two integers <code>left</code> and <code>right</code> where <code>left &lt;= right</code>, reverse the nodes of the list from position <code>left</code> to position <code>right</code>, and return <em>the reversed list</em>.</p>
 

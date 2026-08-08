@@ -1,4 +1,4 @@
-> Submitted: 2026-06-22T13:17:36.000Z
+> Submitted: 2026-08-07T15:58:25.000Z
 
 <p>You are climbing a staircase. It takes <code>n</code> steps to reach the top.</p>
 

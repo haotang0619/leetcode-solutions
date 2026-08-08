@@ -1,4 +1,4 @@
-> Submitted: 2026-07-16T01:09:23.000Z
+> Submitted: 2026-08-07T15:36:54.000Z
 
 <p>A <strong>transformation sequence</strong> from word <code>beginWord</code> to word <code>endWord</code> using a dictionary <code>wordList</code> is a sequence of words <code>beginWord -&gt; s<sub>1</sub> -&gt; s<sub>2</sub> -&gt; ... -&gt; s<sub>k</sub></code> such that:</p>
 

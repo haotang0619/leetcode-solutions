@@ -1,4 +1,4 @@
-> Submitted: 2026-06-14T07:03:42.000Z
+> Submitted: 2026-08-07T15:55:09.000Z
 
 <p>You are given two integer arrays <code>nums1</code> and <code>nums2</code> sorted in <strong>non-decreasing&nbsp;order</strong> and an integer <code>k</code>.</p>
 

@@ -1,4 +1,4 @@
-> Submitted: 2026-06-25T07:56:24.000Z
+> Submitted: 2026-08-07T15:14:38.000Z
 
 <p>A <strong>path</strong> in a binary tree is a sequence of nodes where each pair of adjacent nodes in the sequence has an edge connecting them. A node can only appear in the sequence <strong>at most once</strong>. Note that the path does not need to pass through the root.</p>
 

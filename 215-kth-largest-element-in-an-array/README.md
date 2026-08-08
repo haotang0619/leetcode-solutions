@@ -1,4 +1,4 @@
-> Submitted: 2026-06-15T14:08:40.000Z
+> Submitted: 2026-08-07T15:54:56.000Z
 
 <p>Given an integer array <code>nums</code> and an integer <code>k</code>, return <em>the</em> <code>k<sup>th</sup></code> <em>largest element in the array</em>.</p>
 

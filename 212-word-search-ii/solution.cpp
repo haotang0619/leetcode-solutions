@@ -1,3 +1,4 @@
+// Figured out by myself
 struct Node {
     bool end = false;
     Node* child[26];

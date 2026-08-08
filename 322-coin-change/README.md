@@ -1,4 +1,4 @@
-> Submitted: 2023-06-07T12:52:49.000Z
+> Submitted: 2026-08-07T16:03:33.000Z
 
 <p>You are given an integer array <code>coins</code> representing coins of different denominations and an integer <code>amount</code> representing a total amount of money.</p>
 

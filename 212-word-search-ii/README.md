@@ -1,4 +1,4 @@
-> Submitted: 2026-07-17T05:38:36.000Z
+> Submitted: 2026-08-07T15:41:29.000Z
 
 <p>Given an <code>m x n</code> <code>board</code>&nbsp;of characters and a list of strings <code>words</code>, return <em>all words on the board</em>.</p>
 

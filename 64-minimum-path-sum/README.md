@@ -1,4 +1,4 @@
-> Submitted: 2025-03-04T15:56:32.000Z
+> Submitted: 2026-08-07T16:06:19.000Z
 
 <p>Given a <code>m x n</code> <code>grid</code> filled with non-negative numbers, find a path from top left to bottom right, which minimizes the sum of all numbers along its path.</p>
 

@@ -1,4 +1,4 @@
-> Submitted: 2026-06-24T16:17:45.000Z
+> Submitted: 2026-08-07T16:06:01.000Z
 
 <p>Given an integer array <code>nums</code>, return <em>the length of the longest <strong>strictly increasing </strong></em><span data-keyword="subsequence-array"><em><strong>subsequence</strong></em></span>.</p>
 

@@ -19,7 +19,7 @@ public:
                 for(char c1 = 'a'; c1 <= 'z'; c1++) {
                     if(c1 == tmp) continue;
                     c = c1;
-                    if(mp.contains(s)) {
+                    if(mp.contains(s) && i < mp[s]) {
                         e[i].push_back(mp[s]);
                         e[mp[s]].push_back(i);
                     }

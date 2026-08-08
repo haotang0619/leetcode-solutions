@@ -1,4 +1,4 @@
-> Submitted: 2023-06-10T13:31:34.000Z
+> Submitted: 2026-08-07T15:53:17.000Z
 
 <p>A peak element is an element that is strictly greater than its neighbors.</p>
 

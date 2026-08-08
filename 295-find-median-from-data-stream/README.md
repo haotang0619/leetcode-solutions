@@ -1,4 +1,4 @@
-> Submitted: 2026-06-25T09:51:01.000Z
+> Submitted: 2026-08-07T15:55:23.000Z
 
 <p>The <strong>median</strong> is the middle value in an ordered integer list. If the size of the list is even, there is no middle value, and the median is the mean of the two middle values.</p>
 

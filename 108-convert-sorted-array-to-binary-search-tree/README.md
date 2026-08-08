@@ -1,4 +1,4 @@
-> Submitted: 2026-07-01T03:54:48.000Z
+> Submitted: 2026-08-07T15:41:53.000Z
 
 <p>Given an integer array <code>nums</code> where the elements are sorted in <strong>ascending order</strong>, convert <em>it to a </em><span data-keyword="height-balanced"><strong><em>height-balanced</em></strong></span> <em>binary search tree</em>.</p>
 

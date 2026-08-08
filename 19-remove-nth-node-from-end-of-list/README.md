@@ -1,4 +1,4 @@
-> Submitted: 2023-06-02T15:59:08.000Z
+> Submitted: 2026-08-07T15:13:56.000Z
 
 <p>Given the <code>head</code> of a linked list, remove the <code>n<sup>th</sup></code> node from the end of the list and return its head.</p>
 

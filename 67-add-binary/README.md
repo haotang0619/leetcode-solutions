@@ -1,4 +1,4 @@
-> Submitted: 2025-03-01T03:13:47.000Z
+> Submitted: 2026-08-07T15:55:37.000Z
 
 <p>Given two binary strings <code>a</code> and <code>b</code>, return <em>their sum as a binary string</em>.</p>
 

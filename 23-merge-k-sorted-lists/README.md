@@ -1,4 +1,4 @@
-> Submitted: 2026-06-17T09:26:11.000Z
+> Submitted: 2026-08-07T15:42:24.000Z
 
 <p>You are given an array of <code>k</code> linked-lists <code>lists</code>, each linked-list is sorted in ascending order.</p>
 

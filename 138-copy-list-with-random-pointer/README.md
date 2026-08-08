@@ -1,4 +1,4 @@
-> Submitted: 2026-06-15T06:29:25.000Z
+> Submitted: 2026-08-07T15:06:03.000Z
 
 <p>A linked list of length <code>n</code> is given such that each node contains an additional random pointer, which could point to any node in the list, or <code>null</code>.</p>
 

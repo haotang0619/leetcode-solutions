@@ -1,4 +1,4 @@
-> Submitted: 2026-07-06T05:05:43.000Z
+> Submitted: 2026-08-03T01:42:22.000Z
 
 <p>Alice and Bob continue their games with piles of stones. There are several stones <strong>arranged in a row</strong>, and each stone has an associated value which is an integer given in the array <code>stoneValue</code>.</p>
 
