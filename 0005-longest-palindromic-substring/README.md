@@ -1,4 +1,4 @@
-> Submitted: 2023-06-05T13:35:00.000Z
+> Submitted: 2026-08-09T13:47:46.000Z
 
 <p>Given a string <code>s</code>, return <em>the longest</em> <span data-keyword="palindromic-string"><em>palindromic</em></span> <span data-keyword="substring-nonempty"><em>substring</em></span> in <code>s</code>.</p>
 

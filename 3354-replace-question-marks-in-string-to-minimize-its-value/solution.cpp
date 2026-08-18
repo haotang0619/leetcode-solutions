@@ -1,33 +1,31 @@
 class Solution {
 public:
     string minimizeStringValue(string s) {
-        map<char, int> mp, mp2;
-        for(char c = 'a'; c <= 'z'; c++) {
-            mp[c] = 0;
-            mp2[c] = 0;
-        }
-        for(auto c : s) mp2[c]++;
-
-        vector<char> replaced;
-        for(int i = 0; i < s.size(); i++) {
-            if(s[i] == '?') {
-                int min_c = 'a', min_cnt = mp['a'] + mp2['a'];
-                for(char c = 'b'; c <= 'z'; c++) {
-                    if(min_cnt > mp[c] + mp2[c]) {
-                        min_cnt = mp[c] + mp2[c];
-                        min_c = c;
-                    }
-                }
-                replaced.push_back(min_c);
-                mp[min_c]++;
-            } else {
-                mp[s[i]]++;
-                mp2[s[i]]--;
+        int n = s.size();
+        vector<vector<int>> sSum(26, vector<int>(n, 0));
+        for(int i = n - 1; i >= 0; i--) {
+            for(int c = 0; c < 26; c++) {
+                if(i < n - 1) sSum[c][i] = sSum[c][i + 1];
+                if(s[i] == ('a' + c)) sSum[c][i]++;
             }
         }
-        sort(replaced.begin(), replaced.end());
-        for(int i = 0, j = 0; i < s.size(); i++) {
-            if(s[i] == '?') s[i] = replaced[j++];
+        vector<int> pSum(26, 0);
+        vector<char> v;
+        for(int i = 0; i < n; i++) {
+            if(s[i] == '?') {
+                int cost = INT_MAX, idx = -1;
+                for(int c = 0; c < 26; c++) {
+                    int now = pSum[c] + sSum[c][i];
+                    if(now < cost) cost = now, idx = c;
+                }
+                v.push_back('a' + idx);
+                pSum[idx]++;
+            } else pSum[s[i] - 'a']++;
+        }
+        sort(v.begin(), v.end());
+        int idx = 0;
+        for(auto& c : s) {
+            if(c == '?') c = v[idx++];
         }
         return s;
     }

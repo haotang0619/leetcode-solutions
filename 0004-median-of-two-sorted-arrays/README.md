@@ -1,4 +1,4 @@
-> Submitted: 2023-05-27T15:57:02.000Z
+> Submitted: 2026-08-09T17:49:25.000Z
 
 <p>Given two sorted arrays <code>nums1</code> and <code>nums2</code> of size <code>m</code> and <code>n</code> respectively, return <strong>the median</strong> of the two sorted arrays.</p>
 

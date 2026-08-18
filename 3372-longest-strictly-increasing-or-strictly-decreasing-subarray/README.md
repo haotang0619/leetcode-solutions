@@ -1,4 +1,4 @@
-> Submitted: 2025-02-20T06:33:06.000Z
+> Submitted: 2026-08-16T07:33:09.000Z
 
 <p>You are given an array of integers <code>nums</code>. Return <em>the length of the <strong>longest</strong> <span data-keyword="subarray-nonempty">subarray</span> of </em><code>nums</code><em> which is either <strong><span data-keyword="strictly-increasing-array">strictly increasing</span></strong> or <strong><span data-keyword="strictly-decreasing-array">strictly decreasing</span></strong></em>.</p>
 

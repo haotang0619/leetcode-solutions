@@ -1,4 +1,4 @@
-> Submitted: 2025-03-09T05:56:47.000Z
+> Submitted: 2026-08-15T08:33:31.000Z
 
 <p>There is a circle of red and blue tiles. You are given an array of integers <code>colors</code> and an integer <code>k</code>. The color of tile <code>i</code> is represented by <code>colors[i]</code>:</p>
 

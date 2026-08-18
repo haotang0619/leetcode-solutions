@@ -1,4 +1,4 @@
-> Submitted: 2023-06-12T03:40:06.000Z
+> Submitted: 2026-08-09T15:36:41.000Z
 
 <p>Given two strings <code>word1</code> and <code>word2</code>, return <em>the minimum number of operations required to convert <code>word1</code> to <code>word2</code></em>.</p>
 

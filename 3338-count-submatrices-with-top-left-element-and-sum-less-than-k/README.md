@@ -1,4 +1,4 @@
-> Submitted: 2026-06-04T19:37:29.000Z
+> Submitted: 2026-08-17T04:24:08.000Z
 
 <p>You are given a <strong>0-indexed</strong> integer matrix <code>grid</code> and an integer <code>k</code>.</p>
 

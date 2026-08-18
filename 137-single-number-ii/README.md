@@ -1,4 +1,4 @@
-> Submitted: 2023-06-12T04:31:36.000Z
+> Submitted: 2026-08-09T15:23:30.000Z
 
 <p>Given an integer array <code>nums</code> where&nbsp;every element appears <strong>three times</strong> except for one, which appears <strong>exactly once</strong>. <em>Find the single element and return it</em>.</p>
 
