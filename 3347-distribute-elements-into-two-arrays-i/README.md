@@ -1,4 +1,4 @@
-> Submitted: 2026-08-17T04:21:30.000Z
+> Submitted: 2026-08-20T02:47:43.000Z
 
 <p>You are given a <strong>1-indexed</strong> array of <strong>distinct</strong> integers <code>nums</code> of length <code>n</code>.</p>
 

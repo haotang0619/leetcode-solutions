@@ -1,4 +1,4 @@
-> Submitted: 2026-08-06T09:03:05.000Z
+> Submitted: 2026-09-03T04:42:39.000Z
 
 <p>You are given an array <code>nums1</code> of <code>n</code> <strong>distinct</strong> integers.</p>
 

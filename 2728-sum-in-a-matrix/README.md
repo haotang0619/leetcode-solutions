@@ -1,4 +1,4 @@
-> Submitted: 2023-06-01T05:46:26.000Z
+> Submitted: 2026-08-21T04:10:57.000Z
 
 <p>You are given a <strong>0-indexed</strong> 2D integer array <code>nums</code>. Initially, your score is <code>0</code>. Perform the following operations until the matrix becomes empty:</p>
 

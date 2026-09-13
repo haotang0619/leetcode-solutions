@@ -1,4 +1,4 @@
-> Submitted: 2025-02-20T15:18:15.000Z
+> Submitted: 2026-09-06T03:31:07.000Z
 
 <p>Given two strings s and t, return <i>the number of distinct</i> <b><i>subsequences</i></b><i> of </i>s<i> which equals </i>t.</p>
 

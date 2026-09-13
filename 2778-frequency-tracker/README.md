@@ -1,4 +1,4 @@
-> Submitted: 2023-06-01T06:33:37.000Z
+> Submitted: 2026-08-21T10:06:33.000Z
 
 <p>Design a data structure that keeps track of the values in it and answers some queries regarding their frequencies.</p>
 

@@ -2,14 +2,14 @@ class Solution {
 public:
     int maximumJumps(vector<int>& nums, int target) {
         int n = nums.size();
-        vector<int> dp(n, 0);
-        for(int i = 1; i < nums.size(); i++) {
-            for(int j = 0; j < i; j++) {
-                if((dp[j] > 0 || j == 0) && abs(nums[i] - nums[j]) <= target) {
-                    dp[i] = max(dp[i], dp[j] + 1);
-                }
+        vector<int> dp(n, -1);
+        dp[0] = 0;
+        for(int j = 1; j < n; j++) {
+            for(int i = 0; i < j; i++) {
+                if(dp[i] == -1) continue;
+                if(abs(nums[j] - nums[i]) <= target) dp[j] = max(dp[j], dp[i] + 1);
             }
         }
-        return dp[n - 1] > 0 ? dp[n - 1] : -1;
+        return dp[n - 1];
     }
 };

@@ -1,4 +1,4 @@
-> Submitted: 2025-07-20T02:32:08.000Z
+> Submitted: 2026-08-22T03:29:52.000Z
 
 <p>You are given a positive integer <code>n</code>. Determine whether <code>n</code> is divisible by the <strong>sum </strong>of the following two values:</p>
 

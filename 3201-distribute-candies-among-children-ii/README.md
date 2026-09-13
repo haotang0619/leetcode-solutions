@@ -1,4 +1,4 @@
-> Submitted: 2025-06-28T17:15:39.000Z
+> Submitted: 2026-08-18T02:16:16.000Z
 
 <p>You are given two positive integers <code>n</code> and <code>limit</code>.</p>
 

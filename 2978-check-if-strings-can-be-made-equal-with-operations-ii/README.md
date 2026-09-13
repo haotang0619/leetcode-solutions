@@ -1,4 +1,4 @@
-> Submitted: 2026-06-05T13:36:15.000Z
+> Submitted: 2026-08-19T02:43:06.000Z
 
 <p>You are given two strings <code>s1</code> and <code>s2</code>, both of length <code>n</code>, consisting of <strong>lowercase</strong> English letters.</p>
 

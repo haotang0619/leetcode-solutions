@@ -1,4 +1,4 @@
-> Submitted: 2023-06-01T05:31:03.000Z
+> Submitted: 2026-08-21T04:42:05.000Z
 
 <p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> of length <code>n</code> and an integer <code>k</code>. In an operation, you can choose an element and multiply it by <code>2</code>.</p>
 

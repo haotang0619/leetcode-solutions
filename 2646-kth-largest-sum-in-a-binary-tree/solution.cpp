@@ -11,19 +11,19 @@
  */
 class Solution {
 public:
+    void traverse(vector<long long>& sum, TreeNode* node, int lv) {
+        if(node == nullptr) return;
+        if(sum.size() <= lv) sum.push_back(0);
+        sum[lv] += node->val;
+        traverse(sum, node->left, lv + 1);
+        traverse(sum, node->right, lv + 1);
+    }
+    
     long long kthLargestLevelSum(TreeNode* root, int k) {
         vector<long long> sum;
-        traversal(root, 0, sum);
-        sort(sum.begin(), sum.end(), greater<long long>());
-        return sum.size() >= k ? sum[k - 1] : -1;
-    }
-
-private:
-    void traversal(TreeNode* node, int lv, vector<long long>& sum) {
-        if(node == NULL) return;
-        if(sum.size() <= lv) sum.push_back(0LL);
-        sum[lv] += node->val;
-        traversal(node->left, lv + 1, sum);
-        traversal(node->right, lv + 1, sum);
+        traverse(sum, root, 0);
+        if(sum.size() < k) return -1;
+        sort(sum.rbegin(), sum.rend());
+        return sum[k - 1];
     }
 };

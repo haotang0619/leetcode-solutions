@@ -1,4 +1,4 @@
-> Submitted: 2025-07-27T12:48:28.000Z
+> Submitted: 2026-08-20T03:24:28.000Z
 
 <p>You are given a <strong>0-indexed</strong> integer array <code>nums</code>. A subarray <code>s</code> of length <code>m</code> is called <strong>alternating</strong> if:</p>
 

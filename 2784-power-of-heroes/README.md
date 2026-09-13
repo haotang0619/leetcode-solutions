@@ -1,4 +1,4 @@
-> Submitted: 2023-05-29T07:40:09.000Z
+> Submitted: 2026-08-21T04:52:22.000Z
 
 <p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> representing the strength of some heroes. The<b> power</b> of a group of heroes is defined as follows:</p>
 

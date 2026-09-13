@@ -1,4 +1,4 @@
-> Submitted: 2025-02-22T07:35:37.000Z
+> Submitted: 2026-08-20T04:13:19.000Z
 
 <p>You are given an integer array <code>nums</code>. This array contains <code>n</code> elements, where <strong>exactly</strong> <code>n - 2</code> elements are <strong>special</strong><strong> numbers</strong>. One of the remaining <strong>two</strong> elements is the <em>sum</em> of these <strong>special numbers</strong>, and the other is an <strong>outlier</strong>.</p>
 

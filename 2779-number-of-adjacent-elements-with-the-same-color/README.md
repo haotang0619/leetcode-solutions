@@ -1,4 +1,4 @@
-> Submitted: 2023-06-01T06:19:16.000Z
+> Submitted: 2026-08-21T10:11:02.000Z
 
 <p>You are given an integer <code>n</code> representing an array <code>colors</code> of length <code>n</code> where all elements are set to 0&#39;s meaning <strong>uncolored</strong>. You are also given a 2D integer array <code>queries</code> where <code>queries[i] = [index<sub>i</sub>, color<sub>i</sub>]</code>. For the <code>i<sup>th</sup></code> <strong>query</strong>:</p>
 

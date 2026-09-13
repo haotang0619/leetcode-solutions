@@ -1,4 +1,4 @@
-> Submitted: 2023-06-13T10:06:33.000Z
+> Submitted: 2026-08-26T10:45:12.000Z
 
 <p>Given an integer array nums, return all the triplets <code>[nums[i], nums[j], nums[k]]</code> such that <code>i != j</code>, <code>i != k</code>, and <code>j != k</code>, and <code>nums[i] + nums[j] + nums[k] == 0</code>.</p>
 

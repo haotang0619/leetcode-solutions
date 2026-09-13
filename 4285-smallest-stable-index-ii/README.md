@@ -1,4 +1,4 @@
-> Submitted: 2026-06-10T11:23:45.000Z
+> Submitted: 2026-09-05T17:11:03.000Z
 
 <p>You are given an integer array <code>nums</code> of length <code>n</code> and an integer <code>k</code>.</p>
 
