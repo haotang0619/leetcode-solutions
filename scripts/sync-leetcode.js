@@ -58,6 +58,10 @@ const COMMIT_HEADER = process.env.COMMIT_HEADER || "";
 // Machine-readable marker used to find the last sync commit (the watermark).
 // Kept independent of the header text so the header is free to vary per run.
 const SYNC_MARKER = "Sync-Source: leetcode-sync";
+// Caps how many problems one run commits (oldest-pending first). A single
+// commit covering thousands of problems can make GitHub's createTree call
+// time out; the watermark makes leftovers pick up on the next run.
+const MAX_PROBLEMS_PER_RUN = Number(process.env.MAX_PROBLEMS_PER_RUN || 100);
 
 function log(message) {
   console.log(`[${new Date().toUTCString()}] ${message}`);
@@ -302,13 +306,24 @@ async function sync() {
     return;
   }
 
-  // 3. Fetch code + question content, build one big tree (oldest submission first).
+  // 3. Fetch code + question content, build one big tree (oldest submission
+  // first), capped at MAX_PROBLEMS_PER_RUN so one run can't time out trying
+  // to commit everything at once. Leftovers sync on the next run since the
+  // watermark only advances past what was actually committed.
   const allTreeEntries = [];
   const summaryLines = [];
   const metas = [];
   let maxTimestamp = lastTimestamp;
 
-  for (let i = submissions.length - 1; i >= 0; i--) {
+  const pending = Math.min(submissions.length, MAX_PROBLEMS_PER_RUN);
+  if (submissions.length > MAX_PROBLEMS_PER_RUN) {
+    log(
+      `${submissions.length} new submissions pending; processing the oldest ${MAX_PROBLEMS_PER_RUN} this run, rest will follow on later runs.`
+    );
+  }
+
+  for (let n = 0; n < pending; n++) {
+    const i = submissions.length - 1 - n;
     const full = await getInfo(submissions[i]);
     if (full === null) continue; // locked problem, skip
 
