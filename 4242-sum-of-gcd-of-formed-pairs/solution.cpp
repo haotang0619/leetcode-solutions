@@ -1,11 +1,19 @@
 class Solution {
 public:
     long long gcdSum(vector<int>& nums) {
-        int n = nums.size(), mx = -1;
-        for(auto& num : nums) mx = max(mx, num), num = gcd(mx, num);
-        sort(nums.begin(), nums.end());
+        int mx = INT_MIN, n = nums.size();
+        vector<int> pgcd(n);
+        for(int i = 0; i < n; i++) {
+            mx = max(nums[i], mx);
+            pgcd[i] = gcd(nums[i], mx);
+        }
+        sort(pgcd.begin(), pgcd.end());
         long long ans = 0;
-        for(int i = 0, j = n - 1; i < j; i++, j--) ans += gcd(nums[i], nums[j]);
+        for(int i = 0; i < n; i++) {
+            int j = n - 1 - i;
+            if(i >= j) break;
+            ans += gcd(pgcd[i], pgcd[j]);
+        }
         return ans;
     }
 };
