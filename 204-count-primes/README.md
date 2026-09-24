@@ -1,4 +1,4 @@
-> Submitted: 2025-07-21T07:41:29.000Z
+> Submitted: 2026-09-24T12:16:22.000Z
 
 <p>Given an integer <code>n</code>, return <em>the number of prime numbers that are strictly less than</em> <code>n</code>.</p>
 

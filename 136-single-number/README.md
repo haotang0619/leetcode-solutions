@@ -1,4 +1,4 @@
-> Submitted: 2025-03-01T17:34:17.000Z
+> Submitted: 2026-09-24T14:12:11.000Z
 
 <p>Given a <strong>non-empty</strong>&nbsp;array of integers <code>nums</code>, every element appears <em>twice</em> except for one. Find that single one.</p>
 

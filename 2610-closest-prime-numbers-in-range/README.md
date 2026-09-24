@@ -1,4 +1,4 @@
-> Submitted: 2025-03-07T02:32:55.000Z
+> Submitted: 2026-09-24T12:29:35.000Z
 
 <p>Given two positive integers <code>left</code> and <code>right</code>, find the two integers <code>num1</code> and <code>num2</code> such that:</p>
 

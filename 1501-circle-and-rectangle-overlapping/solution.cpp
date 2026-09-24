@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool checkOverlap(int radius, int xCenter, int yCenter, int x1, int y1, int x2, int y2) {
-        // The center is int the rectangle
+        // The center is in the rectangle
         if(x1 <= xCenter && x2 >= xCenter && y1 <= yCenter && y2 >= yCenter) return true;
         
         // The center is not in the rectangle
@@ -15,5 +15,6 @@ public:
         
         int rr = pow(radius, 2);
         return d1 <= rr || d2 <= rr || d3 <= rr || d4 <= rr;
+        
     }
 };

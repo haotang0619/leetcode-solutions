@@ -1,16 +1,20 @@
+// Learned Euler's Sieve from this
 class Solution {
 public:
     int countPrimes(int n) {
-        vector<bool> isPrime(max(n, 2), true);
-        isPrime[0] = isPrime[1] = false;
-        int ans = max(n - 2, 0);
-        for(int i = 2; i < n; i++) {
-            if(!isPrime[i]) continue;
-            for(int j = i + i; j < n; j += i) {
-                if(isPrime[j]) ans--;
-                isPrime[j] = false;
+        if(n == 0) return 0;
+        bool isPrime[n];
+        fill_n(isPrime, n, true);
+        int primes[n], sz = 0;
+        for(long long i = 2; i < n; i++) {
+            if(isPrime[i]) primes[sz++] = i;
+            for(int j = 0; j < sz; j++) {
+                int p = primes[j];
+                if(i * p >= n) break;
+                isPrime[i * p] = false;
+                if(i % p == 0) break;
             }
         }
-        return ans;
+        return sz;
     }
 };

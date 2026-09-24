@@ -1,4 +1,4 @@
-> Submitted: 2025-03-07T06:35:44.000Z
+> Submitted: 2026-09-24T12:23:03.000Z
 
 <p>Given an integer <code>n</code>, return <em>the number of trailing zeroes in </em><code>n!</code>.</p>
 

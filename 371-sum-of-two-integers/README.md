@@ -1,4 +1,4 @@
-> Submitted: 2025-07-22T11:30:35.000Z
+> Submitted: 2026-09-24T14:32:32.000Z
 
 <p>Given two integers <code>a</code> and <code>b</code>, return <em>the sum of the two integers without using the operators</em> <code>+</code> <em>and</em> <code>-</code>.</p>
 

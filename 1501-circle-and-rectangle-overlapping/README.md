@@ -1,4 +1,4 @@
-> Submitted: 2026-09-19T06:15:56.000Z
+> Submitted: 2026-09-24T14:09:33.000Z
 
 <p>You are given a circle represented as <code>(radius, xCenter, yCenter)</code> and an axis-aligned rectangle represented as <code>(x1, y1, x2, y2)</code>, where <code>(x1, y1)</code> are the coordinates of the bottom-left corner, and <code>(x2, y2)</code> are the coordinates of the top-right corner of the rectangle.</p>
 

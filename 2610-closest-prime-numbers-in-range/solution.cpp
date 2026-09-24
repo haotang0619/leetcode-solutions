@@ -1,24 +1,24 @@
 class Solution {
 public:
     vector<int> closestPrimes(int left, int right) {
-        unordered_map<int, bool> mp;
-        mp[1] = true;
-        for(int i = 2; i * i <= right; i++) {
-            if(mp[i]) continue;
-            for(int j = max(i + i, left / i * i); j <= right; j += i) mp[j] = true;
+        bool isPrime[right + 1];
+        fill_n(isPrime, right + 1, true);
+        vector<int> primes;
+        for(long long i = 2; i <= right; i++) {
+            if(isPrime[i]) primes.push_back(i);
+            for(auto& p : primes) {
+                if(i * p > right) break;
+                isPrime[i * p] = false;
+                if(i % p == 0) break;
+            }
         }
 
         vector<int> v = {-1, -1};
         int prev = -1;
-        for(int i = left; i <= right; i++) {
-            if(!mp[i]) {
-                if(prev != -1) {
-                    if(v[0] == -1 || v[1] - v[0] > i - prev) {
-                        v = {prev, i};
-                    }
-                }
-                prev = i;
-            }
+        for(auto& p : primes) {
+            if(prev >= left && (v[0] == -1 || v[1] - v[0] > p - prev)) v = {prev, p};
+            if(v[1] - v[0] == 2) break;
+            prev = p;
         }
         return v;
     }

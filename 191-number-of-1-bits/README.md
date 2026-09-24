@@ -1,4 +1,4 @@
-> Submitted: 2025-03-01T17:26:04.000Z
+> Submitted: 2026-09-24T14:10:52.000Z
 
 <p>Given a positive integer <code>n</code>, write a function that returns the number of <span data-keyword="set-bit">set bits</span> in its binary representation (also known as the <a href="http://en.wikipedia.org/wiki/Hamming_weight" target="_blank">Hamming weight</a>).</p>
 
