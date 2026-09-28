@@ -1,4 +1,4 @@
-> Submitted: 2023-05-30T02:28:35.000Z
+> Submitted: 2026-09-28T12:01:16.000Z
 
 <p>You are given an integer array <code>nums</code> containing <strong>distinct</strong> numbers, and you can perform the following operations <strong>until the array is empty</strong>:</p>
 
