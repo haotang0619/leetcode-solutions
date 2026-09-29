@@ -1,4 +1,4 @@
-> Submitted: 2023-06-08T03:15:16.000Z
+> Submitted: 2026-09-29T17:25:42.000Z
 
 <p>You are given two <strong>0-indexed</strong> arrays <code>nums1</code> and <code>nums2</code> and a 2D array <code>queries</code> of queries. There are three types of queries:</p>
 
