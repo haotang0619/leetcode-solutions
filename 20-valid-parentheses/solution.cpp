@@ -8,10 +8,10 @@ public:
                 if(sk.empty() || sk.top() != '(') return false;
                 sk.pop();
             } else if(x == '}') {
-                if(sk.empty() ||sk.top() != '{') return false;
+                if(sk.empty() || sk.top() != '{') return false;
                 sk.pop();
             } else {
-                if(sk.empty() ||sk.top() != '[') return false;
+                if(sk.empty() || sk.top() != '[') return false;
                 sk.pop();
             }
         }
