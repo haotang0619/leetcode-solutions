@@ -1,4 +1,4 @@
-> Submitted: 2025-03-01T02:50:55.000Z
+> Submitted: 2026-10-03T02:06:47.000Z
 
 <p>Given a string containing just the characters <code>&#39;(&#39;</code> and <code>&#39;)&#39;</code>, return <em>the length of the longest valid (well-formed) parentheses </em><span data-keyword="substring-nonempty"><em>substring</em></span>.</p>
 
