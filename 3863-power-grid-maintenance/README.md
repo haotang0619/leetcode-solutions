@@ -1,4 +1,4 @@
-> Submitted: 2025-07-21T07:01:10.000Z
+> Submitted: 2026-10-06T17:19:39.000Z
 
 <p data-end="401" data-start="120">You are given an integer <code data-end="194" data-start="191">c</code> representing <code data-end="211" data-start="208">c</code> power stations, each with a unique identifier <code>id</code> from 1 to <code>c</code> (1‑based indexing).</p>
 
