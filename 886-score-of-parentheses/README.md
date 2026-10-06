@@ -1,4 +1,4 @@
-> Submitted: 2025-06-30T03:54:43.000Z
+> Submitted: 2026-10-05T06:27:57.000Z
 
 <p>Given a balanced parentheses string <code>s</code>, return <em>the <strong>score</strong> of the string</em>.</p>
 
