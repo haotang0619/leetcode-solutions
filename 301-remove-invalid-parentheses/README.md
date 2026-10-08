@@ -1,4 +1,4 @@
-> Submitted: 2026-10-07T18:33:02.000Z
+> Submitted: 2026-10-08T04:55:05.000Z
 
 <p>Given a string <code>s</code> that contains parentheses and letters, remove the minimum number of invalid parentheses to make the input string valid.</p>
 

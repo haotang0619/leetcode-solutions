@@ -1,63 +1,43 @@
 class Solution {
 public:
     vector<string> removeInvalidParentheses(string s) {
-        string s1, s2;
-        for(int i = 0; i < s.size(); i++) {
-            if(s[i] == '(') {
-                s1 += s.substr(i);
-                break;
-            } else if(s[i] != ')') s1 += s[i];
-        }
-        reverse(s1.begin(), s1.end());
-        for(int i = 0; i < s1.size(); i++) {
-            if(s1[i] == ')') {
-                s2 += s1.substr(i);
-                break;
-            } else if(s1[i] != '(') s2 += s1[i];
-        }
-        reverse(s2.begin(), s2.end());
-        s = s2;
-
-        int cnt = 0;
-        stack<char> sk;
-        for(auto& c : s) {
-            if(c == '(') sk.push(c);
-            else if(c == ')') {
-                if(!sk.empty()) sk.pop(), cnt++;
-            }
-        }
+        int n = s.size();
+        vector<vector<string>> v(n + 1);
+        string now;
         
-        unordered_set<string> st;
-        auto build = [&](auto&& self, string now, int cnt1, int cnt2, int idx) {
-            if(idx == s.size()) {
-                if(cnt == cnt1 && cnt == cnt2) st.insert(now);
+        auto build = [&](auto&& self, int idx, int leftCnt) {
+            if(idx == n) {
+                if(leftCnt == 0) v[now.size()].push_back(now);
                 return;
             }
             auto& c = s[idx];
-            if(c == '(' || c == ')') self(self, now, cnt1, cnt2, idx + 1);
-            if(c == '(') cnt1++;
-            else if(c == ')') cnt2++;
-            if(cnt1 <= cnt && cnt2 <= cnt) self(self, now + c, cnt1, cnt2, idx + 1);
-        };
-        build(build, "", 0, 0, 0);
-
-        auto check = [](string tmp) {
-            stack<char> sk;
-            for(auto& c : tmp) {
-                if(c == '(') sk.push(c);
-                else if(c == ')') {
-                    if(!sk.empty()) sk.pop();
-                    else return false;
+            if(c == '(') {
+                now += c;
+                self(self, idx + 1, leftCnt + 1);
+                now.pop_back();
+                self(self, idx + 1, leftCnt);
+            } else if(c == ')') {
+                if(leftCnt > 0) {
+                    now += c;
+                    self(self, idx + 1, leftCnt - 1);
+                    now.pop_back();
                 }
+                self(self, idx + 1, leftCnt);
+            } else {
+                now += c;
+                self(self, idx + 1, leftCnt);
+                now.pop_back();
             }
-            return sk.empty();
         };
-        for(auto it = st.begin(); it != st.end();) {
-            if(!check(*it)) st.erase(it++);
-            else it++;
+
+        build(build, 0, 0);
+        for(int i = n; i > 0; i--) {
+            if(!v[i].empty()) {
+                sort(v[i].begin(), v[i].end());
+                v[i].erase(unique(v[i].begin(), v[i].end()), v[i].end());
+                return v[i];
+            }
         }
-        if(st.empty()) st.insert("");
-        
-        return vector<string>(st.begin(), st.end());
+        return v[0];
     }
 };
