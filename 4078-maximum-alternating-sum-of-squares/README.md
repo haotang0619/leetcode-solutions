@@ -1,4 +1,4 @@
-> Submitted: 2026-08-08T11:34:21.000Z
+> Submitted: 2026-10-13T06:12:35.000Z
 
 <p>You are given an integer array <code>nums</code>. You may <strong>rearrange the elements</strong> in any order.</p>
 
