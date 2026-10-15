@@ -1,4 +1,4 @@
-> Submitted: 2026-06-24T19:24:30.000Z
+> Submitted: 2026-10-15T02:56:40.000Z
 
 <p>You are given a <strong>0-indexed </strong>integer array <code>nums</code>.</p>
 

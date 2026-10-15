@@ -4,8 +4,7 @@ public:
         string ans;
         for(int i = 0; i < num; i++) {
             int d = min(sum, 9);
-            ans += ('0' + d);
-            sum -= d;
+            ans += ('0' + d), sum -= d;
         }
         if(sum > 0) return "";
         return ans;

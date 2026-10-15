@@ -1,4 +1,4 @@
-> Submitted: 2026-08-11T07:12:13.000Z
+> Submitted: 2026-10-14T06:27:38.000Z
 
 <p>You are given two <strong>positive</strong> integers <code>num</code> and <code>sum</code>.</p>
 
