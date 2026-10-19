@@ -1,4 +1,4 @@
-> Submitted: 2025-07-03T17:37:47.000Z
+> Submitted: 2026-10-19T07:32:24.000Z
 
 <p>You are given a <strong>0-indexed</strong> integer array <code>nums</code> and a target element <code>target</code>.</p>
 
