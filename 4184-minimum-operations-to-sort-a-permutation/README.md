@@ -1,4 +1,4 @@
-> Submitted: 2026-06-08T17:21:32.000Z
+> Submitted: 2026-10-22T00:24:39.000Z
 
 <p>You are given an integer array <code>nums</code> of length <code>n</code>, where <code>nums</code> is a <span data-keyword="permutation-array">permutation</span> of the integers from 0 to <code>n - 1</code>.</p>
 
