@@ -1,45 +1,30 @@
 class Solution {
 public:
+    vector<pair<int, int>> dir = {{-1, 0}, {0, -1}, {1, 0}, {0, 1}};
     int countIslands(vector<vector<int>>& grid, int k) {
-        int m = grid.size(), n = grid[0].size();
-        vector<vector<int>> edges(m * n, vector<int>({}));
+        int ans = 0, m = grid.size(), n = grid[0].size();
+        vector<vector<bool>> vis(m, vector<bool>(n, false));
         for(int i = 0; i < m; i++) {
             for(int j = 0; j < n; j++) {
-                int idx = i * n + j, i1 = idx + 1, i2 = idx + n;
-                if(j < n - 1 && grid[i][j] > 0 && grid[i][j + 1] > 0) {
-                    edges[idx].push_back(i1);
-                    edges[i1].push_back(idx);
-                }
-                if(i < m - 1 && grid[i][j] > 0 && grid[i + 1][j] > 0) {
-                    edges[idx].push_back(i2);
-                    edges[i2].push_back(idx);
-                }
-            }
-        }
-        vector<bool> seen(m * n, false);
-        int ans = 0;
-        for(int i = 0; i < m * n; i++) {
-            if(seen[i]) continue;
-            if(grid[i / n][i % n] == 0) {
-                seen[i] = true;
-                continue;
-            }
-            stack<int> sk;
-            sk.push(i);
-            long long now = 0;
-            while(!sk.empty()) {
-                int top = sk.top();
-                seen[top] = true;
-                now += (long long)grid[top / n][top % n];
-                sk.pop();
-                for(auto x : edges[top]) {
-                    if(!seen[x]) {
-                        seen[x] = true;
-                        sk.push(x);
+                if(grid[i][j] == 0 || vis[i][j]) continue;
+                queue<pair<int, int>> qu;
+                qu.push({i, j});
+                vis[i][j] = true;
+                long long now = 0;
+                while(!qu.empty()) {
+                    auto [i1, j1] = qu.front();
+                    qu.pop();
+                    now += grid[i1][j1];
+                    for(auto& [x, y] : dir) {
+                        int i2 = i1 + x, j2 = j1 + y;
+                        if(i2 < 0 || i2 >= m || j2 < 0 || j2 >= n) continue;
+                        if(grid[i2][j2] == 0 || vis[i2][j2]) continue;
+                        qu.push({i2, j2});
+                        vis[i2][j2] = true;
                     }
                 }
+                if(now % k == 0) ans++;
             }
-            if(now % k == 0) ans++;
         }
         return ans;
     }
