@@ -1,4 +1,4 @@
-> Submitted: 2026-08-12T07:17:43.000Z
+> Submitted: 2026-11-10T14:27:41.000Z
 
 <p>You are climbing a staircase with <code>n + 1</code> steps, numbered from 0 to <code>n</code>.</p>
 
